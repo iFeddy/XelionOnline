@@ -1,0 +1,13 @@
+;		ItemList in NPC					
+#ignore	\o042			; 인용부호 무시			
+#exchange	#	\x20		; # => space			
+;		2006.01.25					
+							
+#Table	Tab00	;아이템 상점(아델리아)					
+#ColumnType	BYTE	String[33]	String[33]	String[33]	String[33]	String[33]	String[33]
+#ColumnName	Rec	Column00	Column01	Column02	Column03	Column04	Column05
+#Record	0	Pickaxe	Hobby01	Hay	FlyStone	LifeDust	-
+#Record	1	El1	El2	El3	El4	El5	Grade6
+#Record	2	StageRouRecallScroll	StageEldRecallScroll	StageUrgRecallScroll	StageEldGbl02RecallScroll	Urg_AlruinRecallScroll	StageAdlRecallScroll
+#Record	3	House_MushRoom01	House_MushRoom02	House_MushRoom03	House_MushRoom04	-	-
+#End

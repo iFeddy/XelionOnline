@@ -1,0 +1,76 @@
+20120409-Hero[Release]-1
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+0/0
+  PacketContainerBase::pcb_Append[4294967295]
+  BriefInfoExchanger::BriefInfoExchangeAbstate::bixa_Exchange[4294967295]
+  ShineObjectClass::ShineObject::so_ExchageBriefInfo[4294967295]
+  SetItemData::SetItemAbstateEffect::siae_ParameterRefit[4294967295]
+  AbnormalStateContainer::AbstateElementInObject::aeo_ParameterEnchant[4294967295]
+  MobTargetBout::mts_AggroClear[4294967295]
+  MobTargetSelector::mts_Initialize[4294967295]
+  ShineObjectClass::ShineMob::so_MapMarking[4294967295]
+  ShineObjectManager::som_GetObject[4294967295]
+  BossFieldContent::MobAbstateCheckAtDead::macad_PushBack[4294967295]
+> ZoneServer::zs_mainthreadfunction[4294967295]

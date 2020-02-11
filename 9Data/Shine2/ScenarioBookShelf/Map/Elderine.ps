@@ -1,0 +1,133 @@
+;xkl
+open [main]
+	var InterruptBlock		1
+		InterruptArg		2	
+		Administrator		3
+		AdminName			""
+		Exit				""
+		NPC					0
+		NPC2				0
+		EventBoss			0
+		EventPillar			0
+		EventChest			0.
+    interruptclear all.
+    interruptset admin "" 1 "".
+	
+    infinite
+	open
+        waitinterrupt InterruptBlock "InterruptArg".    ; InterruptArg에는 운영자 핸들
+        call InterruptBlock "IsRunning".
+	close
+close
+; --------------------------------------------------------------------- ;
+open [IsRunning]
+    broadcast Handle "Hello my name is, Skynet." InterruptArg.
+    interruptset admin "" 1 "".
+close
+; --------------------------------------------------------------------- ;
+open [StartEvent]
+	scriptfile "EldEvent".
+	
+	broadcast all "01".
+	timelimit Sec 15.
+    pause sec 15.
+	broadcast all "02".
+	
+	maplight 60 60 60.
+	
+	npcstand NPC "Q_Dalian" 17875 13384 90 1000 "Normal".
+	npcstand NPC2 "AdlFH_Barrier02" 17977 13386 90 1000 "Normal".
+	
+	npcshout NPC "03".
+    pause sec 5.
+	npcshout NPC "04".
+    pause sec 10.
+	npcshout NPC "05".
+    pause sec 3.
+	
+	
+	mobregen EventBoss "BF_Fgolem" 17573 13394 265 1000 "Normal".
+	mobregen EventPillar "EventPillar" 17698 13871 265 1000 "Normal".
+	
+	abstateset EventBoss "StaMobImmortal" 1 4200000000.
+	
+	interruptset HPLow "" 1 EventPillar 100 "Summon".
+	interruptset HPLow "" 1 EventPillar 200 "Effects".
+	interruptset HPLow "" 1 EventPillar 300 "Summon".
+	interruptset HPLow "" 1 EventPillar 400 "Effects".
+	interruptset HPLow "" 1 EventPillar 500 "Summon".
+	interruptset HPLow "" 1 EventPillar 600 "Effects".
+	interruptset HPLow "" 1 EventPillar 700 "Summon".
+	interruptset HPLow "" 1 EventPillar 800 "Effects".
+	interruptset HPLow "" 1 EventPillar 900 "Summon".
+	interruptset DeadHandle "" 1 EventPillar "RemoveImmortal".
+	
+	interruptset HPLow "" 1 EventBoss 100 "Effects".
+	interruptset HPLow "" 1 EventBoss 200 "Effects".
+	interruptset HPLow "" 1 EventBoss 300 "Effects".
+	interruptset HPLow "" 1 EventBoss 400 "Effects".
+	interruptset HPLow "" 1 EventBoss 500 "Effects".
+	interruptset HPLow "" 1 EventBoss 600 "Effects".
+	interruptset HPLow "" 1 EventBoss 700 "Effects".
+	interruptset HPLow "" 1 EventBoss 800 "Effects".
+	interruptset HPLow "" 1 EventBoss 900 "Effects".
+	
+	interruptset admin "" 1 "".
+close
+; --------------------------------------------------------------------- ;
+open [Summon]
+	summonmob EventPillar "WarH_Devildom" 6.
+close
+; --------------------------------------------------------------------- ;
+open [RemoveImmortal]
+	broadcast all "06".
+	abstateset EventBoss "StaMobImmortal" 1 1000.
+	
+	vanish EventPillar.
+	
+	interruptset DeadHandle "" 1 EventBoss "Reward".
+close
+; --------------------------------------------------------------------- ;
+open [Effects]
+	var RndNum 0.
+        RndNum = @Random(1 4).
+        
+        if RndNum === "1"
+        then open
+            abstateset all	"StaMobBurnType01" 1 8000.
+        close
+        
+        else if RndNum === "2"
+        then open
+           abstateset all	"StaMob5Entangle" 1 8000.
+        close
+		
+		else if RndNum === "3"
+        then open
+			broadcast all "07".
+			broadcast all "08".
+			abstateset all "StaE_Slime" 1 10000.
+        close
+		
+		else if RndNum === "4"
+        then open
+           abstateset all	"StaCommonFear10" 1 8000.
+        close
+close
+; --------------------------------------------------------------------- ;
+open [Reward]
+	maplight 255 255 255.
+	
+	broadcast all "09".
+	
+	suicide all.
+	vanish NPC.
+	vanish NPC2.
+	
+	mobregen EventChest "AngelicKarenBox2" 16794 13452 0 1000 "Normal".
+	summonmob EventChest "AngelicKarenBox2" 29.
+	
+	interruptclear all.
+	interruptset admin "" 1 "".
+close
+; --------------------------------------------------------------------- ;

@@ -1,0 +1,20 @@
+;
+; Character Data Server info for World00
+; 2013.2 By Blacksky
+; 
+#DEFINE MY_SERVER
+  <STRING>
+  <STRING>
+  <INTEGER>
+  <INTEGER>
+  <INTEGER>
+#ENDDEFINE
+
+MY_SERVER "PG_W00_CDB",		"_Character",	2,		0,		0
+          
+#include "../9Data/ServerInfo/ServerInfo.txt"
+
+
+#END
+
+

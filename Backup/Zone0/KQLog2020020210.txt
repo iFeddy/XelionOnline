@@ -1,0 +1,12 @@
+10:00:00 : WorldManagerSession::wms_NC_KQ_W2Z_MAKE_REQ
+10:00:00 :    Title : King Slime's Counterattack[KDEddyHill00]
+10:00:00 : WorldManagerSession::wms_NC_KQ_W2Z_MAKE_REQ
+10:00:00 :    Title : Evil Spirit Gordon Master[KDEnMaze00]
+10:00:00 : WorldManagerSession::wms_NC_KQ_W2Z_MAKE_REQ
+10:00:00 :    Title : Spring Battlefield [A][KDSpring00]
+10:00:00 : WorldManagerSession::wms_NC_KQ_W2Z_MAKE_REQ
+10:00:00 :    Title : Rage of the Emperor Slime[A][KDGreenHill0]
+10:00:00 : WorldManagerSession::wms_NC_KQ_W2Z_MAKE_REQ
+10:00:00 :    Title : Bijou's Sanctuary [A][KDFargels00]
+10:01:00 : WorldManagerSession::wms_NC_KQ_W2Z_MAKE_REQ
+10:01:00 :    Title : The Millenium Robo Plot[KDUnHall00]

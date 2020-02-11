@@ -1,0 +1,129 @@
+US - 2015년 11월 17일 - 10시 10분 24초
+ZoneServer::zs_start_old
+HTML
+   Pass 0
+   Pass 1
+   Pass 2
+   Pass 3
+   Pass 4
+Script : Good
+Player Buffer size : 1500
+DamageBySoul
+MobRegist
+MobDataBox
+MapData
+ItemData
+ItemGroupClassifier
+SubAbstateDic
+AbstateDic
+RandomOptionTable
+bmpdata
+fieldlist
+skilldatabox
+passivedatabox
+upgradedatabox
+merchantcity
+gathertable
+recipebook
+useditemeffect
+kqreward
+itemusefunction
+magiccontainer
+mobattseq
+chargedbuffdatabox
+minihousedatabox
+minihousefurnituredatabox
+minihouseobjanidatabox
+kqregentable
+g_AIScriptMobContainer
+g_AIScriptPetContainer
+ridedatabox
+ui_ride
+Roaming Data
+miscdatatable
+itemmall
+ItemEquipTable
+zipc_SetNextIP
+gCharacterTitleData
+CharacterTitleStateServer
+gAnnounceSystem
+gClassName
+gItemUpgrade
+SHN - AccUpGradeInfo.shn
+_MultiHitTable
+gItemDismantle
+gQuestData
+gQuestParserData
+gQuestData
+gMiniHouseObjEffect
+minihouseenduredatabox
+gMiniHouseDiceRate
+gMiniHouseDiecGame
+gMiniHouseDiceDividind
+ItemMixData
+mobdatabox
+NPCAction - Condition Manager
+NPCAction - Action Manager
+NPCAction - Trigger Dictionary
+gActionViewInfo
+gMapLinkPoint
+gMapWayPoint
+gGambleHouse
+gGambleExchangeMaxCoin
+gGBJoinGameMember;
+gGBDiceDividind
+gGBDiceGame
+gGBDiceRate
+gNpcSchedule
+gReactionType
+gAdminLvSet
+JobEquipInfo
+SHN - ViewData Checksum - AbStateView.shn
+SHN - ViewData Checksum - ActiveSkillView.shn
+SHN - ViewData Checksum - CharacterTitleStateView.shn
+SHN - ViewData Checksum - EffectViewInfo.shn
+SHN - ViewData Checksum - ItemShopView.shn
+SHN - ViewData Checksum - ItemViewInfo.shn
+SHN - ViewData Checksum - MapViewInfo.shn
+SHN - ViewData Checksum - MobViewInfo.shn
+SHN - ViewData Checksum - NPCViewInfo.shn
+SHN - ViewData Checksum - PassiveSkillView.shn
+SHN - ViewData Checksum - ProduceView.shn
+SHN - ViewData Checksum - CollectCardView.shn
+SHN - ViewData Checksum - GTIView.shn
+SHN - ViewData Checksum - ItemViewEquipTypeInfo.shn
+SHN - MobConditionServer.shn
+SHN - SingleData.shn
+SHN - MarketSearchInfo.shn
+SHN - MoverUpgrade.shn
+SHN - PupMain.shn
+SHN - BadNameFilter.shn
+SHN - StateItem.shn
+SHN - ChatColor.shn
+SHN - TermExtendMatch.shn
+SHN - MinimonInfo.shn
+SHN - MinimonAutoUseItem.shn
+SHN - ChargedDeletableBuff.shn
+SHN - KQItem.shn
+SHN - BRAccUpgrade.shn
+SHN - BRAccUpgradeInfo.shn
+ShnDataFile
+npcmanager
+::fieldlist.l_4AllInList
+Load end
+   Sun
+Script : Good
+Try to connect[192.168.0.21:9411]2
+Try to connect[192.168.0.21:9411]2
+Try to connect[192.168.0.21:9411]2
+Try to connect[192.168.0.21:9411]2
+Try to connect[192.168.0.21:9511]3
+Try to connect[192.168.0.21:9511]3
+Try to connect[192.168.0.21:9511]3
+Try to connect[192.168.0.21:9511]3
+Try to connect[192.168.0.21:9111]5
+Try to connect[192.168.0.21:9111]5
+Try to connect[192.168.0.21:9111]5
+Try to connect[192.168.0.21:9111]5
+Try to connect[192.168.0.21:9111]5
+Try to connect[192.168.0.21:9111]5

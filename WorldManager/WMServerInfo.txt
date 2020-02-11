@@ -1,0 +1,19 @@
+;
+; World Manager Server info 
+; 2013.2 By Blacksky
+; 
+#DEFINE MY_SERVER
+  <STRING>
+  <STRING>
+  <INTEGER>
+  <INTEGER>
+  <INTEGER>
+#ENDDEFINE
+
+MY_SERVER "PG_W00_WM",		"_WorldManager",	5,		0,		0
+
+
+#include "../9Data/ServerInfo/ServerInfo.txt"
+
+#END
+

@@ -1,0 +1,15 @@
+Zone.exe caused an: < EXCEPTION_ACCESS_VIOLATION >
+In module: ntdll.dll at: < 0023:773C8BA9 >
+, RtlWaitOnAddress()+0153 byte(s)
+--------------------------------------------------------------------------
+0023:773C8BA9, ntdll.dll,   RtlWaitOnAddress()+0153 byte(s)
+0023:773AE495, ntdll.dll,   RtlEnterCriticalSection()+0293 byte(s)
+0023:773AE3B5, ntdll.dll,   RtlEnterCriticalSection()+0069 byte(s)
+0023:005CBFC5, Zone.exe, 
+0023:00524537, Zone.exe, 
+0023:0052783F, Zone.exe, 
+0023:0052815A, Zone.exe, 
+0023:0052B2C4, Zone.exe, 
+0023:741562C4, KERNEL32.DLL,   BaseThreadInitThunk()+0036 byte(s)
+0023:773D1F69, ntdll.dll,   RtlSubscribeWnfStateChangeNotification()+1081 byte(s)
+0023:773D1F34, ntdll.dll,   RtlSubscribeWnfStateChangeNotification()+1028 byte(s)

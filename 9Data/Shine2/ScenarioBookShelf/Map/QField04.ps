@@ -1,0 +1,46 @@
+; xkl
+open [main]
+    var InterruptBlock	1
+		InterruptArg	2
+		Monster	0.
+	
+	call "ServersFirstSummon".
+    infinite
+    open
+        waitinterrupt InterruptBlock "InterruptArg".
+        call InterruptBlock "Default".
+    close
+close
+; --------------------------------------------------------------------- ;
+open [ServersFirstSummon]
+	mobregen Monster "Rock" 278	542 0 1000 "Normal".
+	interruptset DeadHandle "" 1 Monster "Reload".
+close
+; --------------------------------------------------------------------- ;
+open [RandomSummon]
+	mobregen Monster "Rock" 278	542 0 1000 "Normal".
+	interruptset DeadHandle "" 1 Monster "Reload".
+close
+; --------------------------------------------------------------------- ;
+open [Reload]
+var RndNum 0.
+        RndNum = @Random(1 3).
+        
+        if RndNum === "1"
+        then open
+			pause sec 1800.
+			call "RandomSummon".
+        close
+        
+        else if RndNum === "2"
+        then open
+			pause sec 3600.
+			call "RandomSummon".
+        close
+		
+		else if RndNum === "3"
+        then open
+			pause sec 7200.
+			call "RandomSummon".
+        close
+close

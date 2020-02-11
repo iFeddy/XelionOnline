@@ -1,0 +1,19 @@
+;
+; Login Server info 
+; 2012.3 By Blacksky
+; 
+#DEFINE MY_SERVER
+  <STRING>       
+  <STRING>       
+  <INTEGER>      
+  <INTEGER>      
+  <INTEGER>      
+#ENDDEFINE
+
+MY_SERVER "PG_W00_Z02",		"_Zone02",	6,		0,		2
+
+
+#include "../../9Data/ServerInfo/ServerInfo.txt"
+
+
+#END

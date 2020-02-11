@@ -1,0 +1,88 @@
+; Server info for RELEASE SERVICE
+; 2007.4 By Blacksky
+; 2015.8 Modified by John (Gamigo)
+
+#DEFINE NATION_NAME
+  <STRING>
+#ENDDEFINE
+
+#DEFINE WORLD_NAME
+  <INTEGER>
+  <STRING>
+  <STRING>
+#ENDDEFINE
+        
+#DEFINE SERVER_INFO
+  <STRING>
+  <INTEGER>
+  <INTEGER>
+  <INTEGER>
+  <INTEGER>
+  <STRING>
+  <INTEGER>
+  <INTEGER>
+  <INTEGER>
+#ENDDEFINE
+
+#DEFINE ODBC_INFO
+  <STRING>
+  <INTEGER>
+  <INTEGER>
+  <STRING>
+  <STRING>
+#ENDDEFINE
+
+
+NATION_NAME  "EU_US_REAL"
+
+WORLD_NAME 0, "INITIO",   "../9Data/Shine"
+
+
+; Login ------------------------------------------------------------------------------------------
+SERVER_INFO  "PG_Login",     4, 0, 0,20,  "192.168.0.21",  9010,  100,   200  ; From Client
+SERVER_INFO  "PG_Login",     4, 0, 0, 5,  "192.168.0.21",  	9011,  100,    50  ; From World manager
+SERVER_INFO  "PG_Login",     4, 0, 0, 8,  "127.0.0.1",  	9015,    1,    30  ; From OPTOOL
+
+
+; Manager ----------------------------------------------------------------------------------------
+SERVER_INFO  "PG_W00_WM",    5, 0, 0,20,  "192.168.0.21",	9110,  100,  1500  ; From Client
+SERVER_INFO  "PG_W00_WM",    5, 0, 0, 6,  "192.168.0.21",  	9111,  100,   100  ; From Zone
+SERVER_INFO  "PG_W00_WM",    5, 0, 0, 8,  "127.0.0.1",  	9115,  100,    30  ; From OPTOOL
+
+; World 00 --------------------------------------------------------------------------------------
+SERVER_INFO  "PG_W00_Z00",   6, 0, 0,20,  "192.168.0.21",  9210,  100,  1500  ; From Client
+SERVER_INFO  "PG_W00_Z00",   6, 0, 0, 8,  "127.0.0.1",  	9211,  100,    30  ; From OPTOOL
+SERVER_INFO  "PG_W00_Z00",   6, 0, 0, 6,  "192.168.0.21",  	9218,    1,    30  ; From Zone
+SERVER_INFO  "PG_W00_Z01",   6, 0, 1,20,  "192.168.0.21",  9212,  100,  1500  ; From Client
+SERVER_INFO  "PG_W00_Z01",   6, 0, 1, 8,  "127.0.0.1",  	9213,  100,    30  ; From OPTOOL
+SERVER_INFO  "PG_W00_Z01",   6, 0, 1, 6,  "192.168.0.21",  	9219,    1,    30  ; From Zone
+SERVER_INFO  "PG_W00_Z02",   6, 0, 2,20,  "192.168.0.21",  9214,  100,  1500  ; From Client
+SERVER_INFO  "PG_W00_Z02",   6, 0, 2, 8,  "127.0.0.1",  	9215,  100,    30  ; From OPTOOL
+SERVER_INFO  "PG_W00_Z02",   6, 0, 2, 6,  "192.168.0.21",  	9220,    1,    30  ; From Zone
+SERVER_INFO  "PG_W00_Z03",   6, 0, 3,20,  "192.168.0.21",  9216,  100,  1500  ; From Client
+SERVER_INFO  "PG_W00_Z03",   6, 0, 3, 8,  "127.0.0.1",  	9217,  100,    30  ; From OPTOOL
+SERVER_INFO  "PG_W00_Z03",   6, 0, 3, 6,  "192.168.0.21",  	9221,    1,    30  ; From Zone
+SERVER_INFO  "PG_W00_Z04",   6, 0, 4,20,  "192.168.0.21",  9222,  100,  1500  ; From Client
+SERVER_INFO  "PG_W00_Z04",   6, 0, 4, 8,  "127.0.0.1",  	9223,  100,    30  ; From OPTOOL
+SERVER_INFO  "PG_W00_Z04",   6, 0, 4, 6,  "192.168.0.21",  	9224,    1,    30  ; From Zone
+
+; AccountDB
+SERVER_INFO  "PG_AccDB",     0, 0, 0, 0,  "192.168.0.21",  9000,  100,   100  ; From ALL
+
+; AccountLog ------------------------------------------------------------------------------------
+SERVER_INFO  "PG_ALDB",      1, 0, 0, 0,  "192.168.0.21",  9311,  100,   100  ; From ALL
+
+; Char_DB ---------------------------------------------------------------------------------------
+SERVER_INFO  "PG_W00_CDB",   2, 0, 0, 0,  "192.168.0.21",  9411,  100,   100  ; From ALL
+
+; GameLog_DB ------------------------------------------------------------------------------------
+SERVER_INFO  "PG_W00_GLDB",  3, 0, 0, 0,  "192.168.0.21",  9511,  100,   100  ; From ALL
+
+; ODBC-----------------------------------------------------------------------------------------------------------------------------------------
+ODBC_INFO "Account" , 0 , 0 , "DRIVER={SQL Server};SERVER=WIN-S4DH8R4H6PM\SQLEXPRESS; UID=sa;PWD=25R87Vmzq15938D", "USE Account; SET LOCK_TIMEOUT 5000"
+ODBC_INFO  "AccountLog",     1,  0,  "DRIVER={SQL Server};SERVER=WIN-S4DH8R4H6PM\SQLEXPRESS; UID=sa;PWD=25R87Vmzq15938D", "USE AccountLog; SET LOCK_TIMEOUT 5000"
+ODBC_INFO  "World00_Character",  10,  0,  "DRIVER={SQL Server};SERVER=WIN-S4DH8R4H6PM\SQLEXPRESS; UID=sa;PWD=25R87Vmzq15938D", "USE World00_Character; SET LOCK_TIMEOUT 5000"
+ODBC_INFO  "World00_GameLog",    11,  0,  "DRIVER={SQL Server};SERVER=WIN-S4DH8R4H6PM\SQLEXPRESS; UID=sa;PWD=25R87Vmzq15938D", "USE World00_GameLog; SET LOCK_TIMEOUT 5000"
+ODBC_INFO  "StatisticsData",     2,  0,  "DRIVER={SQL Server};SERVER=WIN-S4DH8R4H6PM\SQLEXPRESS; UID=sa;PWD=25R87Vmzq15938D", "USE StatisticsData; SET LOCK_TIMEOUT 5000"
+ODBC_INFO  "OperatorTool",         3,  0,  "DRIVER={SQL Server};SERVER=WIN-S4DH8R4H6PM\SQLEXPRESS; UID=sa;PWD=25R87Vmzq15938D", "USE OperatorTool; SET LOCK_TIMEOUT 5000"
+#END

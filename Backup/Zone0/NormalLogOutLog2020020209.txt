@@ -1,0 +1,2 @@
+09:32:57 : ShineObjectClass::ShinePlayer::sp_NC_CHAR_LOGOUTREADY_CMD nCharNo - 1
+09:33:10 : ShineObjectClass::ShinePlayer::sp_Schedule_Logout nCharNo - 1

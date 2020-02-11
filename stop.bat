@@ -1,0 +1,12 @@
+sc stop PG_AccDB
+sc stop PG_ALDB
+sc stop PG_W00_CDB
+sc stop PG_W00_GLDB
+sc stop PG_Login
+sc stop PG_W00_WM
+sc stop _GamigoZR
+sc stop PG_W00_Z00
+sc stop PG_W00_Z01
+sc stop PG_W00_Z02
+sc stop PG_W00_Z03
+sc stop PG_W00_Z04

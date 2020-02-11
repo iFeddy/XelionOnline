@@ -1,0 +1,14 @@
+#ignore	\o042			; �ο��ȣ ����			
+#exchange	#	\x20		; # => space			
+							
+
+;		ItemList in NPC					
+;		2006.01.25					
+
+#Table	Tab00	;������ ����(�Ƶ�����)					
+#ColumnType	BYTE	String[33]	String[33]	String[33]	String[33]	String[33]	String[33]
+#ColumnName	Rec	Column00	Column01	Column02	Column03	Column04	Column05
+#Record	0 	IyzelTowerVault 	DDMineVault 	DDBarracksVault 	CrystalCastleVault 	DDTerritoryVault 	DragonsTombVault
+#Record	1 	LNVault 	SecretLabVault 	DDFVault 	BAVault 	SAVault 	SCVault
+#Record	2 	OCVault 	- 	- 	- 	- 	-
+#end

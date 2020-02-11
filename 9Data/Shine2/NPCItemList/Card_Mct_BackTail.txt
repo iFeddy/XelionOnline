@@ -1,0 +1,30 @@
+#Ignore	\o042
+#Exchange	#	\x20
+
+
+
+
+#Table	Tab00
+#ColumnType	BYTE	String[33]	String[33]	String[33]	String[33]	String[33]	String[33]
+#ColumnName	Rec	Column00	Column01	Column02	Column03	Column04	Column05
+#Record	0 	Card_Back_ThanksGiving_2010_01 	Card_Back_Panda01 	Card_SnowDecisions01 	Card_SpiralSpring01 	Card_Back_AquariusSeal01 	Card_Back_NeptuneSeal01
+#Record	1 	Card_Back_CaptainsWheel01 	Card_Back_ClanScroll01 	Card_Back_Prank01 	Card_Back_Harp01 	Card_Back_Rainy01 	Card_Back_Milk01
+#Record	2 	Card_Back_Steampunk01 	Card_Back_GloryUnicorn01 	Card_Back_DevilUnicorn01 	Card_Back_Steampunk02 	Card_Back_Halloween_2010_02 	Card_Back_TombRaider02
+#Record	3 	Card_SealedBow01 	Card_Back_Monarch01 	Card_Back_Wreath01 	Card_Back_SnowBoader01 	Card_Back_SnowBoader02 	Card_Back_SnowBoader03
+#Record	4 	Card_Back_SnowBoader04 	Card_Back_CupidArrow01 	Card_Back_LoveWing01 	Card_Back_Fork01 	Card_Back_Fairy01 	Card_Back_WesternWing01
+#Record	5 	Card_Back_MeadowWing01 	Card_Back_Bouquet01 	Card_Back_TennisGold01 	Card_Back_TennisSilver01 	Card_Back_TennisBlue01 	Card_Back_FutureWings01
+#Record	6 	Card_Back_CreepyLeg01 	Card_Back_Santa01 	Card_Back_Balloon01 	Card_Back_EasterBunny01 	Card_Back_DiveSpear01 	Card_Back_Pitchfork01
+#Record	7 	Card_Back_Scythe01 	Card_Back_Karen01 	Card_Back_SkelWing01 	Card_Back_IceWing01 	Card_Back_XStick01 	Card_Back_NewYearBell01
+#Record	8 	Card_Back_ClockWing 	Card_Back_Musketeer 	Card_Back_Ankh 	Card_Back_Doctor 	Card_Back_Syringe 	Card_Back_Tube_1
+#Record	9 	Card_Back_WaterGun_1 	Card_Back_Katana_1 	Card_Back_Fan_1 	Card_Back_CurseBear_1 	Card_Back_CurseRabbit_1 	Card_Back_Cyber_1
+#Record	10 	Card_Back_Xmas_14_1 	Card_Back_LoveWitchPotion_1 	Card_Back_LoveWitchBroom_1 	Card_Back_Shamrock_1 	Card_Back_Lollipop_1 	Card_Back_HeartKey_1
+#Record	11 	Card_Back_HeartBalloon_1 	Card_AngelWing09_1 	Card_CorruptAngelWing10_1 	Card_BDragonWing01 	Card_ButterflyWing01 	Card_TravelerBag08_1
+#Record	12 	Card_SealedSword05 	Card_ThrowingStar04 	Card_DevilKingWings09 	Card_BDragonWing10 	Card_TortoiseShell06 	Card_SealedBow05
+#Record	13 	Card_FloatingSpirit01 	Card_RSealedDoubleSword00 	Card_Back_TombRaider01 	Card_DevilKingWings01 	Card_ButterflyWing01_2 	Card_Back_CollectS02
+#Record	14	Transparent_BackCard	Back_Collect01	-	-	-	-
+#Record	15	Card_Tail_Peacock02	Card_Tail_Fox01_1	Card_Tail_GloryUnicorn01	Card_Tail_DevilUnicorn01	Card_Tail_Faun01	Card_Tail_Angel01
+#Record	16	Card_Tail_Wolf01	Card_Tail_ShadowFox01	Card_Tail_Monkey01	Card_Back_KeiGuitar01	Card_Tail_FlameRockR	Card_Tail_FlameRockB
+#Record	17	Card_Tail_Squirrel	Card_Tail_Rabbit00	Card_Tail_WTiger02	Card_Teil_Devil03	Card_Tail_BCat03	Card_Tail_Dragon03
+#Record	18	Card_Tail_phoenix05	Card_Tail_Fox05	Card_Tail_NineFox01	Card_Tail_WCat01	Card_Tail_Peacock00	Card_E_Tail_FlameRockB
+#Record	19	Transparent_TailCard	-	-	-	-	-
+#end

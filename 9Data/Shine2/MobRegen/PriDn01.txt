@@ -1,0 +1,220 @@
+#Ignore	\o042
+#Exchange	#	\x20
+
+#Table	MobRegenGroup
+#columntype		INDEX	STRING[1]	DWRD	DWRD	DWRD	DWRD	DWRD									
+#ColumnName	GroupIndex	IsFamily	CenterX	CenterY	Width	Height	RangeDegree
+#Record	Normal_01	N	10634	6324	0	0	324
+#Record	Normal_02	N	11769	7390	0	0	331
+#Record	Normal_03	N	11199	6799	0	0	858
+#Record	Normal_04	N	10627	7399	0	0	324
+#Record	Normal_05	N	9678	3294	0	0	857
+#Record	Normal_06	N	9125	3833	0	0	359
+#Record	Normal_07	N	10335	3155	0	0	295
+#Record	Normal_08	N	9138	2766	0	0	380
+#Record	Normal_09	N	9585	5075	398	103	0
+#Record	Normal_10	N	8432	5058	153	473	0
+#Record	Normal_11	N	7605	5059	139	470	0
+#Record	Normal_12	N	8043	5055	0	0	500
+#Record	Normal_13	Y	6704	5023	102	122	0
+#Record	Normal_14	Y	6080	5026	109	125	0
+#Record	Normal_15	N	6351	5038	584	52	0
+#Record	Normal_16	N	5281	5050	0	0	324
+#Record	Normal_17	Y	3758	5059	0	0	163
+#Record	Normal_18	Y	4144	5610	0	0	156
+#Record	Normal_19	Y	4139	4472	0	0	170
+#Record	Normal_20	Y	3426	5725	54	213	0
+#Record	Normal_21	Y	3405	4407	51	213	0
+#Record	Normal_22	N	4132	5040	372	966	0
+#Record	Normal_23	Y	4471	3046	53	253	0
+#Record	Normal_24	Y	3814	3051	54	247	0
+#Record	Normal_25	Y	4181	1954	236	51	0
+#Record	Normal_26	Y	4181	1385	239	57	0
+#Record	Normal_27	Y	4658	389	0	0	226
+#Record	Normal_28	Y	3715	397	0	0	226
+#Record	Normal_29	N	3685	1014	157	52	0
+#Record	Normal_30	N	4660	1013	149	50	0
+#Record	Normal_31	Y	4177	878	0	0	79
+#Record	Normal_32	Y	4481	7020	51	254	0
+#Record	Normal_33	Y	3840	7007	54	256	0
+#Record	Normal_34	Y	4189	8148	231	53	0
+#Record	Normal_35	Y	4189	8729	231	51	0
+#Record	Normal_36	Y	4651	9716	0	0	177
+#Record	Normal_37	Y	3658	9710	0	0	184
+#Record	Normal_38	Y	4743	9108	0	0	114
+#Record	Normal_39	Y	3601	9085	0	0	121
+#Record	Normal_40	N	4168	9302	0	0	373
+#Record	Normal_41	Y	5188	6334	0	0	184
+#Record	Normal_42	Y	5204	3684	0	0	170
+#Record	Normal_43	Y	5180	2882	0	0	107
+#Record	Normal_44	Y	5181	7242	0	0	107
+#Record	Normal_45	Y	5992	4055	0	0	177
+#Record	Normal_46	Y	6650	4001	230	161	0
+#Record	Normal_47	Y	6575	3277	0	0	79
+#Record	Normal_48	Y	6579	2843	0	0	79
+#Record	Normal_49	Y	5889	3086	0	0	114
+#Record	Normal_50	Y	6175	1879	0	0	128
+#Record	Normal_51	N	6277	2289	0	0	56
+#Record	Normal_52	Y	6176	1328	0	0	135
+#Record	Chief_01	Y	6200	268	0	0	128
+#Record	Normal_53	Y	5816	861	0	0	163
+#Record	Normal_54	Y	6612	876	0	0	135
+#Record	Normal_55	Y	5619	325	0	0	67
+#Record	Normal_56	Y	6766	326	0	0	68
+#Record	Normal_57	N	6216	624	615	389	0
+#Record	Normal_58	Y	5898	5998	0	0	163
+#Record	Normal_59	Y	6503	6076	204	140	0
+#Record	Normal_60	Y	5878	6988	0	0	121
+#Record	Normal_61	Y	6506	7004	0	0	114
+#Record	Normal_62	Y	6181	7827	0	0	121
+#Record	Normal_63	Y	6184	8424	0	0	128
+#Record	Normal_64	Y	6184	9072	0	0	135
+#Record	Chief_02	N	6193	9783	0	0	128
+#Record	Normal_65	Y	6627	9430	0	0	128
+#Record	Normal_66	Y	5740	9426	0	0	142
+#Record	Normal_67	N	6177	9424	589	336	0
+#Record	Normal_68	Y	2662	5051	0	0	121
+#Record	Normal_69	Y	2005	5049	0	0	121
+#Record	Normal_70	Y	1247	5041	0	0	135
+#Record	Normal_71	Y	524	5030	50	156	0
+#Record	Normal_72	N	1967	5073	828	87	0
+#Record	Normal_73	Y	826	5648	0	0	135
+#Record	Normal_74	Y	828	6589	0	0	128
+#Record	Normal_75	Y	832	4178	0	0	149
+#Record	Normal_76	Y	827	3111	0	0	156
+#Record	Chief_03	N	814	1347	53	88	0
+#Record	Normal_77	Y	1113	2245	0	0	135
+#Record	Normal_78	Y	430	2234	0	0	142
+#Record	Normal_79	Y	301	1602	0	0	128
+#Record	Normal_80	Y	1298	1624	0	0	135
+#Record	Normal_81	N	855	2034	630	479	0
+#Record	Chief_04	N	807	8443	50	62	0
+#Record	Normal_82	Y	449	7538	0	0	135
+#Record	Normal_83	Y	1207	7558	0	0	142
+#Record	Normal_84	Y	1220	8126	0	0	114
+#Record	Normal_85	Y	391	8113	0	0	114
+#Record	Normal_86	N	860	7705	579	458	0
+#Record	Normal_87	N	829	6239	52	704	0
+#Record	Normal_88	N	849	3685	50	677	0
+#Record	Pbox_01	N	2705	5168	2602	4923	0
+#Record	Pbox_02	N	7806	5121	2427	5032	0
+
+#Table	MobRegen
+#columntype		INDEX	STRING[33]	BYTE	BYTE	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD
+#ColumnName	RegenIndex	MobIndex	MobNum	KillNum	RegStandard	RegMin	RegMax	RegDelta0	RegSec0	RegDelta1	RegSec1	RegDelta2	RegSec2	RegDelta3	RegSec3	RegDelta4
+#Record	Normal_01	BIGEXP_D_WeakenedOgre	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_02	D_WeakenedOgre	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_03	BIGEXP_D_KingCall	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_04	D_WeakenedOgre	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_05	D_KingCall	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_06	BIGEXP_D_WeakenedOgre	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_07	D_WeakenedOgre	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_08	D_WeakenedOgre	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_09	D_KingCall	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_10	D_Harkan	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_11	D_Harkan	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_12	D_KingCall	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_13	D_Harkan	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_14	D_Harkan	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_15	BIGEXP_D_KingCall	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_16	D_Harkan	4	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_17	D_Prisoner	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_18	D_Prisoner	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_19	D_Prisoner	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_20	D_VampireBat	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_21	D_VampireBat	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_22	D_VampireBat	8	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_23	D_Prisoner	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_23	D_Torturer	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_24	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_25	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_26	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_27	D_Prisoner	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_27	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_28	D_Prisoner	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_28	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_29	D_VampireBat	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_30	D_VampireBat	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_31	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_32	D_Prisoner	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_33	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_34	D_Prisoner	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_35	D_Prisoner	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_36	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_37	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_38	D_VampireBat	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_39	D_VampireBat	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_40	D_Prisoner	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_41	D_Prisoner	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_41	D_Torturer	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_42	D_Torturer	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_42	D_Prisoner	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_43	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_43	D_Prisoner	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_44	D_Prisoner	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_44	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_45	D_Prisoner	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_46	D_Prisoner	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_46	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_47	D_VampireBat	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_48	D_VampireBat	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_49	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_50	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_51	D_VampireBat	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_52	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Chief_01	D_Torturerking	1	0	600	600	600	-4	5	-2	8	0	10	2	13	4
+#Record	Chief_01	D_Torturer	3	0	600	540	600	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_53	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_54	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_55	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_56	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_57	D_VampireBat	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_58	D_Prisoner	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_59	D_Prisoner	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_60	D_Prisoner	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_60	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_61	D_Prisoner	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_61	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_62	D_VampireBat	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_63	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_63	D_VampireBat	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_64	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Chief_02	D_Torturerking	1	0	600	600	600	-4	5	-2	8	0	10	2	13	4
+#Record	Chief_02	D_Torturer	2	0	600	540	600	-4	5	-2	8	0	10	2	13	4
+#Record	Chief_02	D_VampireBat	2	0	600	540	600	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_65	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_66	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_67	D_VampireBat	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_68	D_Prisoner	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_69	D_Prisoner	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_70	D_Prisoner	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_70	D_Torturer	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_71	D_VampireBat	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_72	D_VampireBat	5	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_73	D_Prisoner	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_73	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_74	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_75	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_76	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Chief_03	D_Torturerking	1	0	600	600	600	-4	5	-2	8	0	10	2	13	4
+#Record	Chief_03	D_Torturer	3	0	600	540	600	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_77	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_78	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_79	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_80	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_81	D_Prisoner	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Chief_04	D_Torturerking	1	0	600	600	600	-4	5	-2	8	0	10	2	13	4
+#Record	Chief_04	D_Torturer	2	0	600	540	600	-4	5	-2	8	0	10	2	13	4
+#Record	Chief_04	D_Prisoner	1	0	600	540	600	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_82	D_Prisoner	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_82	D_Torturer	2	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_83	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_84	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_85	D_Torturer	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_86	D_Prisoner	1	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_87	D_VampireBat	4	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Normal_88	D_VampireBat	3	0	240	236	244	-4	5	-2	8	0	10	2	13	4
+#Record	Pbox_01	PresentBox10	1	0	14400	14396	14404	-4	5	-2	8	0	10	2	13	4
+#Record	Pbox_02	PresentBox10	1	0	14400	14396	14404	-4	5	-2	8	0	10	2	13	4
+
+#End

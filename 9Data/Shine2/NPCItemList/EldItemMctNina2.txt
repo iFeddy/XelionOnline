@@ -1,0 +1,26 @@
+#Ignore	\o042
+#Exchange	#	\x20
+
+
+
+
+#Table	Tab00
+#ColumnType	BYTE	String[33]	String[33]	String[33]	String[33]	String[33]	String[33]
+#ColumnName	Rec	Column00	Column01	Column02	Column03	Column04	Column05
+#Record	0 	Recipe_El1	Recipe_El2	Recipe_El3	Recipe_El4	Recipe_El5	-
+#Record	1 	Recipe_Lix1	Recipe_Lix2	Recipe_Lix3	Recipe_Lix4	Recipe_Lix5	-
+#Record	2	Recipe_Xir1	Recipe_Xir2	Recipe_Xir3 	Recipe_Xir4 	Recipe_Xir5 	-
+#Record	3 	Recipe_BestLowHpPotion 	Recipe_LowHpPotion 	Recipe_NorHpPotion	Recipe_HighHpPotion	Recipe_BestHighHpPotion 	-
+#Record	4 	Recipe_BestLowSpPotion	Recipe_LowSpPotion	Recipe_NorSpPotion	Recipe_HighSpPotion	Recipe_BestHighSpPotion	-
+#Record	5 	Recipe_BestLowConHPPotion 	Recipe_LowConHPPotion 	Recipe_NorConHPPotion	Recipe_HighConHPPotion	Recipe_BestHighConHPPotion	-
+#Record	6 	Recipe_BestLowConSPPotion 	Recipe_LowConSPPotion 	Recipe_NorConSPPotion 	Recipe_HighConSPPotion	Recipe_BestHighConSPPotion	-
+#Record	7	Recipe_BestLowDEXPotion	Recipe_LowDEXPotion	Recipe_NorDEXPotion	Recipe_HighDEXPotion	-	-
+#Record	8	Recipe_BestLowACMRPotion 	Recipe_LowACMRPotion 	Recipe_NorACMRPotion	Recipe_HighACMRPotion	-	-
+#Record	9	Recipe_LowPsnResiPotion 	Recipe_NorPsnResiPotion 	Recipe_HighPsnResiPotion 	-	-	-
+#Record	10	Recipe_LowCurResiPotion 	Recipe_NorCurResiPotion 	Recipe_HighCurResiPotion 	-	-	-
+#Record	11	Recipe_LowDssResiPotion	Recipe_NorDssResiPotion	Recipe_HighDssResiPotion	-	-	-
+#Record	12	Recipe_LowPsnCurPotion 	Recipe_NorPsnCurPotion 	Recipe_HighPsnCurPotion 	-	-	-
+#Record	13	Recipe_LowDssCurPotion	Recipe_NorDssCurPotion	Recipe_HighDssCurPotion	-	-	-
+#Record	14	Recipe_AllCurResiPotion 	Recipe_AllDssResiPotion	Recipe_AllPsnResiPotion	-	-	-
+#Record	15	Recipe_AllInOneScroll_Tier1	Recipe_AllInOneScroll_Tier2	Recipe_AllInOneScroll_Tier3	Recipe_AllInOneScroll_Tier4	Recipe_AllInOneScroll_Tier5	-
+#end

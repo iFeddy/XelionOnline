@@ -1,0 +1,109 @@
+#Ignore	\o042
+#Exchange	#	\x20
+
+#Table	MobRegenGroup
+#columntype		INDEX	STRING[1]	DWRD	DWRD	DWRD	DWRD	DWRD									
+#ColumnName	GroupIndex	IsFamily	CenterX	CenterY	Width	Height	RangeDegree
+#Record	0101	N	1152	4675	0	0	393
+#Record	0102	N	1366 	4668	0	0	393
+#Record	0103	N	915 	4271	0	0	393
+#Record	0104	N	1147 	4460	0	0	393
+#Record	0201	N	2020 	2526	0	0	393
+#Record	0202	N	2239 	2639	0	0	393
+#Record	0203	N	2575 	2321	0	0	393
+#Record	0204	N	2069 	2018	0	0	393
+#Record	0401	N	6585 	947	0	0	393
+#Record	0402	N	6825 	1230	0	0	393
+#Record	0403	N	6996 	689	0	0	393
+#Record	0501	N	8968 	938	0	0	393
+#Record	0502	N	9314 	1153	0	0	393
+#Record	0503	N	9458 	736	0	0	393
+#Record	0701	N	10949 	5188	0	0	393
+#Record	0702	N	10632 	5374	0	0	393
+#Record	0703	N	11076 	5631	0	0	393
+#Record	0704	N	11400 	5209	0	0	393
+#Record	0801	N	11734 	7673	0	0	393
+#Record	0802	N	11852 	7545	0	0	393
+#Record	0803	N	11622 	7585	0	0	393
+#Record	0804	N	11419 	7826	0	0	393
+#Record	0805	N	11624 	7597	0	0	393
+#Record	0806	N	11872 	7557	0	0	393
+#Record	1001	N	8979 	11140	0	0	393
+#Record	1002	N	8760 	10876	0	0	393
+#Record	1003	N	8387 	11162	0	0	393
+#Record	1004	N	8769 	11637	0	0	393
+#Record	1101	N	6664 	11832	0	0	393
+#Record	1102	N	6256 	11614	0	0	393
+#Record	1103	N	6266 	12147	0	0	393
+#Record	1301	N	3273 	9017	0	0	393
+#Record	1302	N	3514 	8768	0	0	393
+#Record	1303	N	2939 	8840	0	0	393
+#Record	1401	N	3257 	6536	0	0	393
+#Record	1402	N	3501 	6181	0	0	393
+#Record	1403	N	2913 	6295	0	0	393
+#Record	1601	N	6732 	4401	0	0	393
+#Record	1602	N	7291 	4581	0	0	393
+#Record	1603	N	7246 	4080	0	0	393
+#Record	1701	N	8709 	5556	0	0	393
+#Record	1702	N	8607 	6108	0	0	393
+#Record	1703	N	9113 	5768	0	0	393
+#Record	1901	N	5023 	7606	0	0	393
+#Record	1902	N	7739 	7620	0	0	393
+#Record	Boos01	N	4360 	1240	0	0	393
+#Record	Boos02	N	10245 	3118	0	0	393
+#Record	Boos03	N	10709 	9808	0	0	393
+#Record	Boos04	N	4178 	10961	0	0	393
+#Record	Boos05	N	4709 	4743	0	0	393
+
+#Table	MobRegen
+#columntype		INDEX	STRING[33]	BYTE	BYTE	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD
+#ColumnName	RegenIndex	MobIndex	MobNum	KillNum	RegStandard	RegMin	RegMax	RegDelta0	RegSec0	RegDelta1	RegSec1	RegDelta2	RegSec2	RegDelta3	RegSec3	RegDelta4
+#Record	0101	NT_MageBook	3	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0102	NT_SkelWarrior	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0103	NT_Spider	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0201	NT_MageBook	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0203	NT_SkelWarrior	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0204	NT_Bat	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0401	NT_FireViVi	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0402	NT_FlyingStaff	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0403	NT_Hob	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0501	NT_Zombie	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0502	NT_Ghost	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0503	NT_Hob	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0701	NT_JokeKebing	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0702	NT_SkelSoldier	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0703	NT_ScareImp	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0704	NT_CemWolf	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0801	NT_JokeKebing	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0802	NT_BlackBear	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0803	NT_SkelSoldier	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0804	NT_ScareImp	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0805	NT_CemWolf	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	0806	NT_RedBear	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1001	NT_BlackBear	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1002	NT_RedBear	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1003	NT_FireTaitan	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1004	NT_WindNepilim	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1101	NT_RedBear	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1102	NT_FireTaitan	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1103	NT_WindNepilim	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1301	NT_Alka	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1302	NT_FireShellaA	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1303	NT_PoisonMantrapPlantA	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1401	NT_Alka	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1402	NT_FireShellaA	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1403	NT_PoisonMantrapPlantA	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1601	NT_RedCondorA	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1602	NT_RaplansiaB	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1603	NT_D_WeakenedOgre	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1701	NT_RedCondorA	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1702	NT_D_Torturer	4	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1703	NT_D_Prisoner	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1901	BF_GDragon	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	1902	BF_TrollChief	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	Boos01	NT_KQ_MiniDragon	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	Boos02	NT_KQ_K_BossPhino	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	Boos03	NT_Emp_EmperorSlime	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	Boos04	NT_Lab_25	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+#Record	Boos05	NT_Eglack	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+#End
