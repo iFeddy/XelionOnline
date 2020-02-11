@@ -1,0 +1,16 @@
+shmd0_5 
+Sky 0 
+Water 0 
+GroundObject 5 
+resmap\field\B_Trini\B_Trini.nif 
+resmap\field\B_Trini\BH_Helga_L.nif 
+resmap\field\B_Trini\BH_Helga_F1.nif 
+resmap\field\B_Trini\BH_Helga_F2.nif 
+resmap\field\B_Trini\BH_Helga_F3.nif 
+GlobalLight 0.945098 0.941177 0.760784  
+Fog 1.000000 0.000000 0.000000 0.000000 
+BackGroundColor 0.000000 0.000000 0.000000  
+Frustum 5000.000000 
+DataObjectLoadingEnd
+DirectionLightAmbient 0.000000 0.000000 0.000000 
+DirectionLightDiffuse 0.000000 0.576471 0.850980

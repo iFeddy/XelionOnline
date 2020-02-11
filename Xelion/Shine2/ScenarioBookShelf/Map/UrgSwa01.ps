@@ -1,0 +1,55 @@
+; xkl
+open [main]
+    var InterruptBlock	1
+		InterruptArg	2
+		Monster	0.
+	
+	call "ServersFirstSummon".
+    infinite
+    open
+        waitinterrupt InterruptBlock "InterruptArg".
+        call InterruptBlock "Default".
+    close
+close
+; --------------------------------------------------------------------- ;
+open [ServersFirstSummon]
+	var RndNum 0.
+        RndNum = @Random(1 2).
+        
+        if RndNum === "1"
+        then open
+			mobregen Monster "CrazyMimic" 17304	17591 0 1000 "Normal".
+			interruptset DeadHandle "" 1 Monster "Reload".
+        close
+        
+        else if RndNum === "2"
+        then open
+			mobregen Monster "CaimanGiant" 5634	14234 0 1000 "Normal".
+			interruptset DeadHandle "" 1 Monster "Reload".
+        close
+close
+; --------------------------------------------------------------------- ;
+open [RandomSummon]
+	XCoord = @Random(2183 23473).
+	YCoord = @Random(3775 22472).	
+	
+	var RndNum 0.
+        RndNum = @Random(1 2).
+        
+        if RndNum === "1"
+        then open
+			mobregen Monster "CrazyMimic" XCoord	YCoord 0 1000 "Normal".
+			interruptset DeadHandle "" 1 Monster "Reload".
+        close
+        
+        else if RndNum === "2"
+        then open
+			mobregen Monster "CaimanGiant" XCoord	YCoord 0 1000 "Normal".
+			interruptset DeadHandle "" 1 Monster "Reload".
+        close
+close
+; --------------------------------------------------------------------- ;
+open [Reload]
+	pause sec 900.
+	call "RandomSummon".
+close

@@ -1,0 +1,30 @@
+#Ignore	\o042						
+#Exchange	#	\x20					
+							
+
+#Table	Tab00						
+#ColumnType	BYTE	String[33]	String[33]	String[33]	String[33]	String[33]	String[33]
+#ColumnName	Rec	Column00	Column01	Column02	Column03	Column04	Column05
+#Record	0	Cos_2009Christmas01	Cos_BCircus00	Cos_BraveCross06	Cos_CottonCandy01_1	Cos_DChipao05	Cos_EldSailor01_5
+#Record	1	Cos_2010Octo01	Cos_BDragon05	Cos_BSailor01	Cos_CrimsonSilk01	Cos_DevilUnicorn01_1	Cos_EldUniform01_1
+#Record	2	Cos_2010Octo02	Cos_BeachGreen01_1	Cos_CandyMeow_7	Cos_Cupid01	Cos_Dive01_1	Cos_Elegant01
+#Record	3	Cos_Arabian_1	Cos_BeachRed01_1	Cos_Ceremony01_1	Cos_Cyber_7	Cos_Doctor_1	Cos_Fight01_1
+#Record	4	Cos_Arabian01_1	Cos_BeachYellow01_1	Cos_Chipao01	Cos_DarkBlue00_1	Cos_EasterBunny01_1	Cos_FlameRock_1
+#Record	5	Cos_AstonEvil05	Cos_BlueSea11	Cos_Circus00_8	Cos_DarkGreen05	Cos_Egypt_1	Cos_Gala01
+#Record	6	Cos_Barong01	Cos_Boader01_1	Cos_Cloud01	Cos_DarkKnight06_1	Cos_EldHighSailor00_5	Cos_Gamble01_2
+#Record	7	Cos_Gamble02_2	Cos_Healer00_1	Cos_JackO01	Cos_LuckyClover01	Cos_Magician01_1	COS_Nightmare01_5
+#Record	8	Cos_Gerbera01	Cos_HiddenCrush01_1	Cos_JackO01_7	Cos_Made002_8	Cos_Marine01_1	Cos_Ninja02
+#Record	9	Cos_GIJoeNinja00	Cos_HolyLight04	Cos_Java01_1	Cos_Made004_12	Cos_Meadow01_1	Cos_Noblesse01_1
+#Record	10	Cos_GloryUnicorn01_1	Cos_Honeying01	Cos_JokerCross00_5	Cos_Made005_3	Cos_MirrorLand00_5	Cos_PandaSuit01
+#Record	11	Cos_Gothic_7	Cos_Hyunmoo01_6	Cos_Kaffoo01_1	Cos_Made006_15	Cos_Monster01_1	Cos_PChipao05
+#Record	12	Cos_Halloween_2010_01	Cos_Ingage06	Cos_Kei01_1	Cos_Made007_5	Cos_Musketeer_1	Cos_Penguin01
+#Record	13	Cos_Harvest01_1	Cos_InvisibleMan06_1	Cos_LoveWitch_7	Cos_Made008_16	Cos_Neo01_1	Cos_PerfectAim01_1
+#Record	14	Cos_Pirate00	Cos_Sailor00_3	Cos_Shamrock_7	Cos_Succubus00_1	Cos_Victorian_1	Cos_Woderland02
+#Record	15	Cos_PolarBear01_1	Cos_Sakura01_6	Cos_Shamrock01	Cos_Tkorea01	Cos_WesternPink01_1	Cos_WPalace01_5
+#Record	16	Cos_Police01_1	Cos_Santa_2010_01	Cos_SnowDress01_1	Cos_TPainCircus00	Cos_WesternSky01_1	Cos_Xmas_14_7
+#Record	17	Cos_Professor01_1	Cos_SapphireCross00	Cos_SnowMan01_1	Cos_ultimatum06	Cos_WhiteDay03	Cos_Xmas00_3
+#Record	18	Cos_PumpkinKitty01	Cos_ScaletAssasin01	Cos_Sorcerer00_1	Cos_UltraSuit01_1	Cos_WhiteKnight05	Cos_Xmas01_3
+#Record	19	Cos_Rainy01	Cos_School01_1	Cos_Steampunk01	Cos_UrgSchool01_1	Cos_WLoeR00	Cos_Xmas02_3
+#Record	20	Cos_Ronin_7	Cos_ShadowFox01_1	Cos_Stellar01_1	Cos_Valentine04	Cos_WLov01	Cos_Xmas03_3
+#Record	21	Cos_Xmas04_3	Cos_Xmas05_1	Cos_YDragon05	Cos_ZHunter01_1	Transparent_CostumeNPC	-
+#end

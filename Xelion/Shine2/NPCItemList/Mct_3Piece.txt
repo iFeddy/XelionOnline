@@ -1,0 +1,34 @@
+#Ignore	\o042						
+#Exchange	#	\x20					
+							
+
+
+
+#Table	Tab00						
+#ColumnType	BYTE	String[33]	String[33]	String[33]	String[33]	String[33]	String[33]
+#ColumnName	Rec	Column00	Column01	Column02	Column03	Column04	Column05
+#Record	0	Cos_FieDancerA01_1	Cos_HinaA02	Cos_kimonoA00	Cos_MusaA01_1	Cos_SportsA01_4	Cos_SwimRedA01_1
+#Record	1	Cos_FieDancerP01_1	Cos_HinaP02	Cos_kimonoP00	Cos_MusaP01_1	Cos_SportsP01_4	Cos_SwimRedP01_1
+#Record	2	Cos_FieDancerS01_1	Cos_HinaS02	Cos_kimonoS00	Cos_MusaS01_1	Cos_SportsS01_4	Cos_SwimRedS01_1
+#Record	3	Cos_FootballA01_1	Cos_KebyA01_1	Cos_MarineA_7	Cos_Slumber01_A	Cos_Swim2011A01_1	Cos_SwimsuitA_2010_1
+#Record	4	Cos_FootballP01_1	Cos_KebyP01_1	Cos_MarineP_7	Cos_Slumber01_P	Cos_Swim2011P01_1	Cos_SwimsuitP_2010_1
+#Record	5	Cos_FootballS01_1	Cos_KebyS01_1	Cos_MarineS_7	Cos_Slumber01_S	Cos_Swim2011S01_1	Cos_SwimsuitS_2010_1
+#Record	6	-	-	-	-	-	-
+#Record	7	Cos_TennisA01_1	Cos_Uniform_ARG_Shirt01	Cos_Uniform_DEN_Shirt01	Cos_Uniform_ESP_Shirt01	Cos_Uniform_GER_Shirt01	Cos_Uniform_ITA_Shirt01
+#Record	8	Cos_TennisP01_1	Cos_Uniform_ARG_Pants01	Cos_Uniform_DEN_Pants01	Cos_Uniform_ESP_Pants01	Cos_Uniform_GER_Pants01	Cos_Uniform_ITA_Pants01
+#Record	9	Cos_TennisS01_1	Cos_Uniform_ARG_Boots01	Cos_Uniform_DEN_Boots01	Cos_Uniform_ESP_Boots01	Cos_Uniform_GER_Boots01	Cos_Uniform_ITA_Boots01
+#Record	10	Cos_TombRaiderShirt01	Cos_Uniform_BRA_Shirt01	Cos_Uniform_ENG_Shirt01	Cos_Uniform_FRA_Shirt01	Cos_Uniform_GRE_Shirt01	Cos_Uniform_MEX_Shirt01
+#Record	11	Cos_TombRaiderPants01	Cos_Uniform_BRA_Pants01	Cos_Uniform_ENG_Pants01	Cos_Uniform_FRA_Pants01	Cos_Uniform_GRE_Pants01	Cos_Uniform_MEX_Pants01
+#Record	12	Cos_TombRaiderBoots01	Cos_Uniform_BRA_Boots01	Cos_Uniform_ENG_Boots01	Cos_Uniform_FRA_Boots01	Cos_Uniform_GRE_Boots01	Cos_Uniform_MEX_Boots01
+#Record	13	-	-	-	-	-	-
+#Record	14	Cos_Uniform_NED_Shirt01	Cos_Uniform_SUI_Shirt01	KORDevilsA01	Menian_BlueA01_4	Menian_YellowA01_4	Transparent_TopNPC
+#Record	15	Cos_Uniform_NED_Pants01	Cos_Uniform_SUI_Pants01	KORDevilsA02	Menian_BlueP01_4	Menian_YellowP01_4	Transparent_PantsNPC
+#Record	16	Cos_Uniform_NED_Boots01	Cos_Uniform_SUI_Boots01	KORDevilsP01	Menian_BlueS01_4	Menian_YellowS01_4	Transparent_ShoesNPC
+#Record	17	Cos_Uniform_POR_Shirt01	Cos_Uniform_USA_Shirt01	KORDevilsP02	Menian_RedA01_4	-	-
+#Record	18	Cos_Uniform_POR_Pants01	Cos_Uniform_USA_Pants01	KORDevilsS01	Menian_RedA02_4	-	-
+#Record	19	Cos_Uniform_POR_Boots01	Cos_Uniform_USA_Boots01	KORDevilsS02	Menian_RedS01_4	-	-
+#Record	20	-	-	-	-	-	-
+#Record	21	Cos_TanktopArch01	Cos_BoopA03	Cos_TanktopFox01	Cos_Couple01_1	Cos_TanktopKebing01	Cos_Domo01
+#Record	22	Cos_TanktopPhouch01	Cos_NiftyShirt00_1	Cos_TanktopSlime01	Cos_OrangeOutsparkT00_1	Cos_TPainTankTops00	Cos_RedOutsparkT00_1
+#Record	23	Cos_BlueOutsparkT00_1	Cos_RideDieShirt00	-	-	-	-
+#end

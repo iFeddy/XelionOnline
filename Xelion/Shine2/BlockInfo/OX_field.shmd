@@ -1,0 +1,13 @@
+shmd0_5 
+Sky 1 
+resmap\nifs\Common\field_sky_01.nif 
+Water 1 
+resmap\field\OX_field\OX_W.nif 
+GroundObject 1 
+resmap\field\OX_field\OX_W2.nif 
+GlobalLight 1.000000 1.000000 1.000000 
+Fog 0.600000 0.400000 0.701961 1.000000 
+BackGroundColor 0.286275 0.647059 1.000000 
+Frustum 5000.000000 
+resmap\nifs\Rou\raft.nif 1 
+7276.073730 6035.093750 -590.550537 0.000000 0.000000 0.955868 -0.293797 1.000000 

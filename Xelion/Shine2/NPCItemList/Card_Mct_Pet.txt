@@ -1,0 +1,23 @@
+#Ignore	\o042
+#Ignore	\o042
+#Exchange	#	\x20
+
+#Table	Tab00
+#ColumnType	BYTE	String[33]	String[33]	String[33]	String[33]	String[33]	String[33]
+#ColumnName	Rec	Column00	Column01	Column02	Column03	Column04	Column05
+#Record	0 	Card_MiniXmasBell01 	Card_MiniSteampunk01 	Card_MiniOctopus01 	Card_MiniSunflower01 	Card_MiniBloom01 	Card_MiniGift01
+#Record	1 	Card_MiniJoker01 	Card_MiniStone01 	Card_MiniEagle01 	Card_MiniGoldFish01 	Card_MiniFirebird01 	Card_MiniOctopus02
+#Record	2 	Card_MiniSteampunk02 	Card_MiniJackLantern01 	Card_MiniBlackCat01 	Card_MiniChilly01 	Card_MiniPenguin01 	Card_MiniPolarBear01
+#Record	3 	Card_MiniLoveBug01 	Card_MiniGuardHeart01 	Card_MiniBalloon01 	Card_MiniFenrir01 	Card_MiniMallard01 	Card_MiniSeed01
+#Record	4 	Card_MiniTennis01 	Card_MiniJava01 	Card_MiniServerBear01 	Card_MiniGold01 	Card_MiniVoice00 	Card_MiniBobu01
+#Record	5 	Card_MiniArchmage01 	Card_MiniJack01 	Card_MiniTurkey01 	Card_MiniSnowy01 	Card_MiniLapin01 	Card_MiniEasterEgg01
+#Record	6 	Card_MiniEasterBunny02 	Card_MiniBankPig01 	Card_MiniRoary01_BOTH 	Card_MiniMarshmallow01_BOTH 	Card_MiniLantern01_BOTH 	Card_MiniSquirrel01_BOTH
+#Record	7 	Card_MiniBabyFox01_BOTH 	Card_MiniFMurumuru01 	Card_MiniIMurumuru01 	Card_MiniSMurumuru01 	Card_MiniBearDoll01_BOTH 	Card_MiniCuteyDog01_BOTH
+#Record	8 	Card_MiniMuffin 	Card_MiniArabianSlime 	Card_MiniLuckySheep_P 	Card_MiniLuckySheep3_P 	Card_MiniCobra_U 	Card_MiniClaudePink_U
+#Record	9 	Card_MiniClaudeBlue_U 	Card_MiniTiros_U 	Card_MiniStarFish_U 	Card_MiniDaruma_P_1 	Card_MiniSkull_P_1 	Card_MiniSpybot_P_1
+#Record	10 	Card_MiniXmas14_Slime_P_1 	Card_MiniHeartMouse_P_1 	Card_MiniShamrock_P_1 	Card_MiniStrawberry_P1 	Card_MiniHeartPrisoner_P1 	Card_MiniLimp01_5
+#Record	11 	Card_MiniCrap01_5 	Card_MiniKCrap01_5 	Card_MiniPino01_5 	Card_MiniPinoP01_5 	Card_MiniSkel01_5 	Card_MiniBat01_5
+#Record	12 	Card_MiniFox01_5 	Card_MiniWolf01_5 	Card_MiniRatMan01_5 	Card_MiniVivi01_5 	Card_MiniGreenky01_5 	Card_MiniPinky01_5
+#Record	13 	Card_MiniSDog01_5 	Card_MiniStony01_5 	Card_MiniAkon01_5 	Card_MiniDragon01_5 	Card_MiniEasterBunny01 	Card_E_SkiMiniSnowy
+#Record	14 	Card_MiniOctopus02_1 	Card_MiniGift01_14 	Card_E_MiniPenguin_15 	Card_E_MiniMuffin 	- 	-
+#End

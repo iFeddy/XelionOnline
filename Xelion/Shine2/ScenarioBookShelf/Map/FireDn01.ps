@@ -1,0 +1,33 @@
+; xkl
+open [main]
+    var InterruptBlock	1
+		InterruptArg	2
+		Monster	0
+		XCoord	0
+		YCoord	0.
+	
+	call "ServersFirstSummon".
+    infinite
+    open
+        waitinterrupt InterruptBlock "InterruptArg".
+        call InterruptBlock "Default".
+    close
+close
+; --------------------------------------------------------------------- ;
+open [ServersFirstSummon]
+	mobregen Monster "D_GuardianMaster" 11599	11092 0 1000 "Normal".
+	interruptset DeadHandle "" 1 Monster "Reload".
+close
+; --------------------------------------------------------------------- ;
+open [RandomSummon]
+	XCoord = @Random(1821 11599).
+	YCoord = @Random(1432 11092).
+
+	mobregen Monster "D_GuardianMaster" XCoord	YCoord 0 1000 "Normal".
+	interruptset DeadHandle "" 1 Monster "Reload".
+close
+; --------------------------------------------------------------------- ;
+open [Reload]
+	pause sec 900.
+	call "RandomSummon".
+close

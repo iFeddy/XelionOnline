@@ -1,0 +1,50 @@
+;
+; Account Data Server info 
+; 2012.3 By Blacksky
+; 
+
+;-----------------------------------------------------------------------------------
+; DEFINE SCRIPTOR COMMAND
+;-----------------------------------------------------------------------------------
+
+#DEFINE MY_SERVER  ; My Server Info
+  <STRING>         ; Server service name.
+  <STRING>         ; Server service display name.
+  <INTEGER>        ; Server ID
+  <INTEGER>        ; Server World No
+  <INTEGER>        ; Server Zone No
+#ENDDEFINE
+
+;-----------------------------------------------------------------------------------
+; Server ID
+;-----------------------------------------------------------------------------------
+
+; 0 SERVER_ID_DB_ACCOUNT    
+; 1 SERVER_ID_DB_ACCOUNTLOG 
+; 2 SERVER_ID_DB_CHARACTER  
+; 3 SERVER_ID_DB_GAMELOG    
+ 
+; 4 SERVER_ID_LOGIN         
+; 5 SERVER_ID_WORLDMANAGER  
+; 6 SERVER_ID_ZONE          
+ 
+; 7 SERVER_ID_PATCH     
+; 8 SERVER_ID_OPTOOL    
+; 9 SERVER_ID_WEB       
+;10 SERVER_ID_UNKNOWN   
+ 
+;19 SERVER_ID_LAUNCHER  
+;20 SERVER_ID_CLIENT    
+
+;-----------------------------------------------------------------------------------
+; DEFINE DATA
+;-----------------------------------------------------------------------------------
+
+;         [Service name]        [Display name]  [Server ID] 	[World No] 	[Zone No]
+MY_SERVER "PG_ALDB", 		"_AccountLog", 	1,		0,		0
+          
+#include "../9Data/ServerInfo/ServerInfo.txt"
+
+
+#END
+

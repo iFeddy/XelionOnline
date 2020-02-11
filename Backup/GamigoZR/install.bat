@@ -1,1 +1,0 @@
-SC CREATE "_GamigoZR" binpath= "F:/GamigoZR/Gamigo_Zone_Response_Service.exe"

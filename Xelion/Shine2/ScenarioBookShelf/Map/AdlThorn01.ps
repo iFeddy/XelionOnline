@@ -1,0 +1,100 @@
+; xkl
+open [main]
+    var InterruptBlock	1
+		InterruptArg	2
+		Boss	0
+		Chest1	0
+		Chest2	0
+		Chest3	0
+		Chest4	0
+		Chest5	0.
+	
+	call "SummonKaren".
+    infinite
+    open
+        waitinterrupt InterruptBlock "InterruptArg".
+        call InterruptBlock "Default".
+    close
+close
+; --------------------------------------------------------------------- ;
+open [SummonKaren]
+	var RndNum 0.
+        RndNum = @Random(1 2).
+        
+        if RndNum === "1"
+        then open
+			mobregen Boss "Karen" 23884	23541 0 1000 "Normal".
+			interruptset DeadHandle "" 1 Boss "KarenChest".
+        close
+        
+        else if RndNum === "2"
+        then open
+			mobregen Boss "AngelicKaren" 23884	23541 0 1000 "Normal".
+			interruptset DeadHandle "" 1 Boss "KarenChest".
+    close
+close
+; --------------------------------------------------------------------- ;
+open [KarenChest]
+	mobregen Chest1 "AngelicKarenBox1" 23816	23466 0 1000 "Normal".
+	mobregen Chest2 "AngelicKarenBox1" 23785	23654 0 1000 "Normal".
+	mobregen Chest3 "AngelicKarenBox1" 24026	23426 0 1000 "Normal".
+	mobregen Chest4 "AngelicKarenBox1" 24255	23465 0 1000 "Normal".
+	mobregen Chest5 "AngelicKarenBox1" 23812	23903 0 1000 "Normal".
+	
+	summonmob Chest1 "AngelicKarenBox1" 5.
+	summonmob Chest2 "AngelicKarenBox1" 5.
+	summonmob Chest3 "AngelicKarenBox1" 5.
+	summonmob Chest4 "AngelicKarenBox1" 5.
+	summonmob Chest5 "AngelicKarenBox1" 5.
+	
+	call "Timer1".
+close
+; --------------------------------------------------------------------- ;
+open [Timer1]
+	broadcast all "Timer [01] has started! Karen will respawn in 8 hours.".
+	timelimit Min 60.
+	interruptset TimeOut "" 1 "Timer2".
+close
+
+open [Timer2]
+	broadcast all "Timer [02] has started! Karen will respawn in 7 hours.".
+	timelimit Min 60.
+	interruptset TimeOut "" 1 "Timer3".
+close
+
+open [Timer3]
+	broadcast all "Timer [03] has started! Karen will respawn in 6 hours.".
+	timelimit Min 60.
+	interruptset TimeOut "" 1 "Timer4".
+close
+
+open [Timer4]
+	broadcast all "Timer [04] has started! Karen will respawn in 5 hours.".
+	timelimit Min 60.
+	interruptset TimeOut "" 1 "Timer5".
+close
+
+open [Timer5]
+	broadcast all "Timer [05] has started! Karen will respawn in 4 hours.".	
+	timelimit Min 60.
+	interruptset TimeOut "" 1 "Timer6".
+close
+
+open [Timer6]
+	broadcast all "Timer [06] has started! Karen will respawn in 3 hours.".
+	timelimit Min 60.
+	interruptset TimeOut "" 1 "Timer7".
+close
+
+open [Timer7]
+	broadcast all "Timer [07] has started! Karen will respawn in 2 hours.".
+	timelimit Min 60.
+	interruptset TimeOut "" 1 "Timer8".
+close
+
+open [Timer8]
+	broadcast all "Timer [08] has started! Karen will respawn in 1 hours.".
+	timelimit Min 60.
+	interruptset TimeOut "" 1 "SummonKaren".
+close
+; --------------------------------------------------------------------- ;

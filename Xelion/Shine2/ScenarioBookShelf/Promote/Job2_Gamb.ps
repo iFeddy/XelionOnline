@@ -1,0 +1,201 @@
+;xkl
+open [main]
+	var InterruptBlock	1
+		InterruptArg	2
+		Lord	0
+		Hero	0
+		Heroine	0
+		TimeOut	0
+		PlayerHandle	""
+		Boss	0
+		NPC01	0
+		NPC02	0
+		NPC03	0
+		NPC4	0
+		NPC5	0
+		NPC6	0
+		NPC7	0
+        LoginWait	"".
+
+    waitlogin LoginWait.
+    if LoginWait == 0                           
+    then open
+        call "JC100Fail".
+    close
+	
+	scriptfile "JC100".
+	
+	npcstand Lord "JC100_Lord" 6451 3297 200 1000 "Normal".
+	npcstand Hero "JC100_Hero" 6531 3241 200 1000 "Normal".
+	npcstand Heroine "JC100_Heroine" 6355 3237 200 1000 "Normal".
+	
+	findhandle PlayerHandle "Player" 0.
+	
+	npcshout Lord "JC100_Lord01".
+    pause sec 10.
+	npcshout Lord "JC100_Lord02".
+    pause sec 5.
+	npcshout Lord "JC100_Lord03".
+    pause sec 5.
+	npcshout Heroine "JC100_Heroine01".
+    pause sec 5.
+	npcshout Hero "JC100_Hero01".
+    pause sec 5.
+	npcshout Heroine "JC100_Heroine02".
+    pause sec 5.
+	npcshout Hero "JC100_Hero02".
+    pause sec 5.
+	npcshout Lord "JC100_Lord04".
+    pause sec 5.
+	
+	mobregen Boss "JC100_Helga" 6062 3677 43 1000 "Normal".
+	
+	interruptset HPLow "" 1 Boss 50 "Summon02".
+	interruptset HPLow "" 1 Boss 100 "Effects".
+	interruptset HPLow "" 1 Boss 150 "Summon02".
+	interruptset HPLow "" 1 Boss 200 "Effects".
+	interruptset HPLow "" 1 Boss 250 "Summon02".
+	interruptset HPLow "" 1 Boss 300 "Effects".
+	interruptset HPLow "" 1 Boss 350 "Summon02".
+	interruptset HPLow "" 1 Boss 400 "Effects".
+	interruptset HPLow "" 1 Boss 450 "NPCHelp01".
+	interruptset HPLow "" 1 Boss 500 "Summon02".
+	interruptset HPLow "" 1 Boss 550 "NPCHelp02".
+	interruptset HPLow "" 1 Boss 600 "NPCHelp03".
+	interruptset HPLow "" 1 Boss 650 "Summon02".
+	interruptset HPLow "" 1 Boss 700 "NPCHelp04".
+	interruptset HPLow "" 1 Boss 750 "NPCHelp05".
+	interruptset HPLow "" 1 Boss 800 "Summon02".
+	interruptset HPLow "" 1 Boss 850 "NPCHelp06".
+	interruptset HPLow "" 1 Boss 900 "NPCHelp07".
+	
+	timelimit Min 30.
+	interruptset DeadHandle "" 1 Boss "JC100Success".
+	interruptset DeadHandle "" 1 PlayerHandle "JC100Fail".
+	interruptset TimeOut "" 1 "JC100Fail".
+	
+	infinite
+    open
+        waitinterrupt InterruptBlock "InterruptArg".
+        call InterruptBlock.
+    close
+close
+; --------------------------------------------------------------------- ;
+open [Summon02]
+	var RndNum 0.
+        RndNum = @Random(1 4).
+        
+        if RndNum === "1"
+        then open
+            summonmob Boss "P_Fighter9M" 2.
+        close
+        
+        else if RndNum === "2"
+        then open
+           summonmob Boss "P_Cleric9F" 2.
+        close
+		
+		else if RndNum === "3"
+        then open
+           summonmob Boss "P_Archer9F" 2.
+        close
+		
+		else if RndNum === "4"
+        then open
+           summonmob Boss "P_Mage9M" 2.
+        close
+close
+; --------------------------------------------------------------------- ;
+open [Effects]
+	var RndNum 0.
+        RndNum = @Random(1 3).
+        
+        if RndNum === "1"
+        then open
+            abstateset PlayerHandle	"StaMob5Entangle" 1 5000.
+        close
+        
+        else if RndNum === "2"
+        then open
+           abstateset PlayerHandle	"StaCommonFear10" 1 5000.
+        close
+		
+		else if RndNum === "3"
+        then open
+			broadcast all "JC100_Helga01".
+			abstateset Boss "StaMobImmortal" 1 5000.
+			
+			pause sec 5.
+			
+			abstateset Boss "StaMobImmortal" 1 1000.
+        close
+close
+; --------------------------------------------------------------------- ;
+open [NPCHelp01]
+	mobregen NPC01 "JC100_EldGuardCaptainShutian" 7033 3718 43 1000 "Normal".
+	npcshout NPC01 "NPCHelp".
+close
+; --------------------------------------------------------------------- ;
+open [NPCHelp02]
+	mobregen NPC02 "JC100_RouSkillRubi" 7033 3718 43 1000 "Normal".
+	npcshout NPC02 "NPCHelp".
+close
+; --------------------------------------------------------------------- ;
+open [NPCHelp03]
+	mobregen NPC03 "JC100_EldGuardNus" 7033 3718 43 1000 "Normal".
+	npcshout NPC03 "NPCHelp".
+close
+; --------------------------------------------------------------------- ;
+open [NPCHelp04]
+	mobregen NPC04 "JC100_EldWizSkillWishis" 7033 3718 43 1000 "Normal".
+	npcshout NPC04 "NPCHelp".
+close
+; --------------------------------------------------------------------- ;
+open [NPCHelp05]
+	mobregen NPC05 "JC100_RouWeaponTitleMctZach" 7033 3718 43 1000 "Normal".
+	npcshout NPC05 "NPCHelp".
+close
+; --------------------------------------------------------------------- ;
+open [NPCHelp06]
+	mobregen NPC06 "JC100_UruSkillChyburn" 7033 3718 43 1000 "Normal".
+	npcshout NPC06 "NPCHelp".
+close
+; --------------------------------------------------------------------- ;
+open [NPCHelp07]
+	mobregen NPC07 "JC100_UruSmithHans" 7033 3718 43 1000 "Normal".
+	npcshout NPC07 "NPCHelp".
+close
+; --------------------------------------------------------------------- ;
+open [JC100Success]
+    questresult Suc.
+	timelimit Min 0.
+	
+	itemcreate PlayerHandle "JOB_GradeSymbol".
+	
+	vanish Lord.
+	vanish Hero.
+	vanish Heroine.
+	
+	suicide all.
+	
+	broadcast all "Return01".
+	pause sec 15.
+    linkto all "Urg_Alruin" "Urg_Alruin" 6732 10100.
+    break "main".
+close
+; --------------------------------------------------------------------- ;
+open [JC100Fail]
+	questresult Fail.
+	timelimit Min 0.
+	
+	vanish Lord.
+	vanish Hero.
+	vanish Heroine.
+	
+	suicide all.
+	
+	broadcast all "Return01".
+	pause sec 15.
+    linkto all "Urg_Alruin" "Urg_Alruin" 6732 10100.
+    break "main".
+close

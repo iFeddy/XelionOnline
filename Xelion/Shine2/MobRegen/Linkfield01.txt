@@ -1,0 +1,90 @@
+#Ignore	\o042
+#Exchange	#	\x20
+
+#Table	MobRegenGroup
+#columntype		INDEX	STRING[1]	DWRD	DWRD	DWRD	DWRD	DWRD									
+#ColumnName	GroupIndex	IsFamily	CenterX	CenterY	Width	Height	RangeDegree
+#Record	Link01	N	6369	2751	0	0	289
+#Record	Link02	N	6971	2899	0	0	289
+#Record	Link03	N	7599	3249	0	0	289
+#Record	Link04	N	5905	3839	0	0	324
+#Record	Link05	N	7249	4252	0	0	226
+#Record	Link06	N	6583	3999	0	0	254
+#Record	Link07	N	8172	3783	0	0	121
+#Record	Link08	N	8657	4260	0	0	142
+#Record	Link09	N	9708	4810	0	0	373
+#Record	Link10	N	5703	6356	0	0	114
+#Record	Link11	N	6458	7050	0	0	121
+#Record	Link12	N	5946	7341	0	0	100
+#Record	Link13	N	6610	9933	0	0	163
+#Record	Link14	N	6773	9332	0	0	324
+#Record	Link15	N	2372	9875	0	0	443
+#Record	Link16	N	3034	9362	0	0	289
+#Record	Link17	N	4652	9285	0	0	331
+#Record	Link18	N	4415	8261	0	0	268
+#Record	Link19	N	2557	7089	0	0	352
+#Record	Link20	N	2072	5355	0	0	240
+#Record	Link22	N	9281	5424	0	0	205
+#Record	Link23	N	9197	6061	0	0	170
+#Record	Link24	N	7615	8175	0	0	275
+#Record	Link25	N	8463	9501	0	0	240
+#Record	Link26	N	8520	8575	0	0	233
+#Record	Link274	N	4988	8501	0	0	170
+#Record	Link28	N	4883	2741	0	0	170
+#Record	Link29	N	4626	3355	0	0	177
+#Record	Link30	N	5217	3567	0	0	240
+#Record	Link31	N	5394	2790	0	0	163
+#Record	Link32	N	7606	4883	0	0	247
+#Record	Link33	N	9197	9880	0	0	274
+#Record	Secret_001	N	3438	5024	0	0	109
+#Record	Secret_002	N	3878	6120	0	0	116
+#Record	Secret_003	N	3652	5521	0	0	116
+
+#Table	MobRegen
+#columntype		INDEX	STRING[33]	BYTE	BYTE	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD
+#ColumnName	RegenIndex	MobIndex	MobNum	KillNum	RegStandard	RegMin	RegMax	RegDelta0	RegSec0	RegDelta1	RegSec1	RegDelta2	RegSec2	RegDelta3	RegSec3	RegDelta4
+#Record	Link01	BIGEXP_CemWolf	3	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link02	CemWolf	4	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link03	CemWolf	3	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link04	BIGEXP_CemWolf	4	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link05	CemWolf	3	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link06	CemWolf	2	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link07	BIGEXP_CemWolf	2	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link08	CemWolf	2	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link09	CemWolf	4	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link09	FireViVi	1	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link10	BIGEXP_BabyWereBear	2	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link10	FireViVi	1	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link11	BabyWereBear	2	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link12	BabyWereBear	3	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link13	BIGEXP_BabyWereBear	3	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link13	FireViVi	1	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link14	BabyWereBear	5	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link14	FireViVi	1	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link15	BabyWereBear	4	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link15	FireViVi	1	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link16	BIGEXP_BabyWereBear	3	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link17	BabyWereBear	4	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link17	FireViVi	1	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link18	BabyWereBear	3	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link19	BIGEXP_BabyWereBear	3	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link20	BabyWereBear	3	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link22	BIGEXP_CemWolf	3	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link23	CemWolf	2	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link24	BabyWereBear	3	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link25	BIGEXP_BabyWereBear	3	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link26	BabyWereBear	2	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link274	BabyWereBear	2	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link28	CemWolf	3	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link29	BIGEXP_CemWolf	3	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link30	CemWolf	4	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link31	CemWolf	3	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link32	BIGEXP_CemWolf	4	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link33	BIGEXP_BabyWereBear	5	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Link33	FireViVi	1	0	9	5	13	-4	5	-2	8	0	10	2	13	4
+#Record	Secret_001	SecretChiefSub	2	0	15	13	17	-4	5	-2	8	0	10	2	13	4
+#Record	Secret_002	SecretChiefSub	2	0	15	13	17	-4	5	-2	8	0	10	2	13	4
+#Record	Secret_003	SecretChiefSub	3	0	15	13	17	-4	5	-2	8	0	10	2	13	4
+#Record	Secret_003	SecretChief	1	0	60	58	62	-4	5	-2	8	0	10	2	13	4
+
+#End

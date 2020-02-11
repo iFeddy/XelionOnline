@@ -1,0 +1,791 @@
+open [main]
+    var InterruptBlock  ""
+        InterruptArg    ""
+        
+        Boss           	""
+		
+		XCoord	0
+		YCoord	0
+		
+		Player00        0
+		Player01        0
+		Player02        0
+		Player03        0
+		Player04        0
+        
+        Entrance        ""
+		
+        Door00          ""
+        Door01          ""
+        Door02          ""
+        Door03          ""
+        Door04          ""
+        Door05          ""
+        Door06          ""
+        Door07          ""
+        Door08          ""
+        Door09          ""
+        Door10          ""
+        Door11          ""
+        Door12          ""
+        Door13          ""
+        Door14          ""
+        Door15          ""
+        Door16          ""
+        Door17          "".
+
+    interruptclear.
+	
+; ------------------------------------------------------------------------------------------------------------------------------------
+; DOORS
+; ------------------------------------------------------------------------------------------------------------------------------------	
+    doorbuild Door00 "AdlFH_Barrier02" 1177 3916 0 1000 "Normal".
+    doorclose Door00 "DOOR00".
+    doorbuild Door01 "AdlFH_Barrier02" 2614 1952 315 1000 "Normal".
+    doorclose Door01 "DOOR01".
+    doorbuild Door02 "AdlFH_Barrier02" 4916 1079 280 1000 "Normal".
+    doorclose Door02 "DOOR02".
+    doorbuild Door03 "AdlFH_Barrier02" 7393 956 270 1000 "Normal".
+    doorclose Door03 "DOOR03".
+    doorbuild Door04 "AdlFH_Barrier02" 9873 952 270 1000 "Normal".
+    doorclose Door04 "DOOR04".
+    doorbuild Door05 "AdlFH_Barrier02" 10251 3744 180 1000 "Normal".
+    doorclose Door05 "DOOR05".
+    doorbuild Door06 "AdlFH_Barrier02" 11437 5872 215 1000 "Normal".
+    doorclose Door06 "DOOR06".
+    doorbuild Door07 "AdlFH_Barrier02" 11735 8292 180 1000 "Normal".
+    doorclose Door07 "DOOR07".
+    doorbuild Door08 "AdlFH_Barrier02" 10302 10228 135 1000 "Normal".
+    doorclose Door08 "DOOR08".
+    doorbuild Door09 "AdlFH_Barrier02" 8229 11572 120 1000 "Normal".
+    doorclose Door09 "DOOR09".
+    doorbuild Door10 "AdlFH_Barrier02" 5796 11827 90 1000 "Normal".
+    doorclose Door10 "DOOR10".
+    doorbuild Door11 "AdlFH_Barrier02" 3690 10595 45 1000 "Normal".
+    doorclose Door11 "DOOR11".
+    doorbuild Door12 "AdlFH_Barrier02" 3272 8242 0 1000 "Normal".
+    doorclose Door12 "DOOR12".
+    doorbuild Door13 "AdlFH_Barrier02" 3274 5768 0 1000 "Normal".
+    doorclose Door13 "DOOR13".
+    doorbuild Door14 "AdlFH_Barrier02" 5250 4565 280 1000 "Normal".
+    doorclose Door14 "DOOR14".
+    doorbuild Door15 "AdlFH_Barrier02" 7747 4415 270 1000 "Normal".
+    doorclose Door15 "DOOR15".
+    doorbuild Door16 "AdlFH_Barrier02" 8949 6385 215 1000 "Normal".
+    doorclose Door16 "DOOR16".
+    doorbuild Door17 "AdlFH_Barrier02" 7130 7626 90 1000 "Normal".
+    doorclose Door17 "DOOR17".
+; ------------------------------------------------------------------------------------------------------------------------------------	
+
+	npcstand Entrance "DT_ExitGate" 1179 7721 0 1000 "Normal".
+    interruptset NPCClickHandle "EntranceClick" 1 Entrance "onEntranceClick".
+	
+	call "FirstFloor". 
+	call "SecondFloor".
+	call "ThirdFloor".
+	call "FourthFloor".
+	call "FifthFloor".
+	call "SixthFloor".
+	call "SeventhFloor".
+	call "EighthFloor".
+	call "NinthFloor".
+	call "TenthFloor".
+	call "EleventhFloor".
+	call "TwelveFloor".
+	call "ThirteenthFloor".
+	call "FourteenthFloor".
+	call "FifteenthFloor".
+	call "SixteenthFloor".
+	call "SeventeenthFloor".
+	call "EighteenthFloor".
+	call "NineteenthFloor".
+close
+
+open [onEntranceClick]
+    var mclicker 0.
+    whoclickme mclicker InterruptArg.
+    linkto mclicker "Rou" "Rou" 5966 4190.
+    interruptset NPCClickHandle "EntranceClick" 1 Entrance "onEntranceClick".
+close
+
+open [FirstFloor]
+	regengroup	"NewTower"	"0101".
+	regengroup	"NewTower"	"0102".
+	regengroup	"NewTower"	"0103".
+	regengroup	"NewTower"	"0104".
+    call "WaitClearStage".
+    dooropen Door00 "DOOR00".
+	break "FirstFloor".
+close
+
+open [SecondFloor]
+	regengroup	"NewTower"	"0201".
+	regengroup	"NewTower"	"0202".
+	regengroup	"NewTower"	"0203".
+	regengroup	"NewTower"	"0204".
+    call "WaitClearStage".
+    dooropen Door01 "DOOR01".
+	break "SecondFloor".
+close
+
+open [ThirdFloor]
+	regengroup	"NewTower"	"Boos01".
+    call "WaitClearStage".
+    dooropen Door02 "DOOR02".
+	break "ThirdFloor".
+close
+
+open [FourthFloor]
+	regengroup	"NewTower"	"0401".
+	regengroup	"NewTower"	"0402".
+	regengroup	"NewTower"	"0403".
+    call "WaitClearStage".
+    dooropen Door03 "DOOR03".
+	break "FourthFloor".
+close
+
+open [FifthFloor]
+	regengroup	"NewTower"	"0501".
+	regengroup	"NewTower"	"0502".
+	regengroup	"NewTower"	"0503".
+    call "WaitClearStage".
+    dooropen Door04 "DOOR04".
+	break "FifthFloor".
+close
+
+open [SixthFloor]
+	regengroup	"NewTower"	"Boos02".
+    call "WaitClearStage".
+    dooropen Door05 "DOOR05".
+	break "SixthFloor".
+close
+
+open [SeventhFloor]
+	regengroup	"NewTower"	"0701".
+	regengroup	"NewTower"	"0702".
+	regengroup	"NewTower"	"0703".
+	regengroup	"NewTower"	"0704".
+    call "WaitClearStage".
+    dooropen Door06 "DOOR06".
+	break "SeventhFloor".
+close
+
+open [EighthFloor]
+	regengroup	"NewTower"	"0801".
+	regengroup	"NewTower"	"0802".
+	regengroup	"NewTower"	"0803".
+	regengroup	"NewTower"	"0804".
+	regengroup	"NewTower"	"0805".
+	regengroup	"NewTower"	"0806".
+    call "WaitClearStage".
+    dooropen Door07 "DOOR07".
+	break "EighthFloor".
+close
+
+open [NinthFloor]
+	regengroup	"NewTower"	"Boos03".
+    call "WaitClearStage".
+    dooropen Door08 "DOOR08".
+	break "NinthFloor".
+close
+
+open [TenthFloor]
+	regengroup	"NewTower"	"1001".
+	regengroup	"NewTower"	"1002".
+	regengroup	"NewTower"	"1003".
+	regengroup	"NewTower"	"1004".
+    call "WaitClearStage".
+    dooropen Door09 "DOOR09".
+	break "TenthFloor".
+close
+
+open [EleventhFloor]
+	regengroup	"NewTower"	"1101".
+	regengroup	"NewTower"	"1102".
+	regengroup	"NewTower"	"1103".
+    call "WaitClearStage".
+    dooropen Door10 "DOOR10".
+	break "EleventhFloor".
+close
+
+open [TwelveFloor]
+	regengroup	"NewTower"	"Boos04".
+    call "WaitClearStage".
+    dooropen Door11 "DOOR11".
+	break "TwelveFloor".
+close
+
+open [ThirteenthFloor]
+	regengroup	"NewTower"	"1301".
+	regengroup	"NewTower"	"1302".
+	regengroup	"NewTower"	"1303".
+    call "WaitClearStage".
+    dooropen Door12 "DOOR12".
+	break "ThirteenthFloor".
+close
+
+open [FourteenthFloor]
+	regengroup	"NewTower"	"1401".
+	regengroup	"NewTower"	"1402".
+	regengroup	"NewTower"	"1403".
+    call "WaitClearStage".
+    dooropen Door13 "DOOR13".
+	break "FourteenthFloor".
+close
+
+open [FifteenthFloor]
+	regengroup	"NewTower"	"Boos05".
+    call "WaitClearStage".
+    dooropen Door14 "DOOR14".
+	break "FifteenthFloor".
+close
+
+open [SixteenthFloor]
+	regengroup	"NewTower"	"1601".
+	regengroup	"NewTower"	"1602".
+	regengroup	"NewTower"	"1603".
+    call "WaitClearStage".
+    dooropen Door15 "DOOR15".
+	break "SixteenthFloor".
+close
+
+open [SeventeenthFloor]
+	regengroup	"NewTower"	"1701".
+	regengroup	"NewTower"	"1702".
+	regengroup	"NewTower"	"1703".
+    call "WaitClearStage".
+    dooropen Door16 "DOOR16".
+	break "SeventeenthFloor".
+close
+
+open [EighteenthFloor]
+	regengroup	"NewTower"	"1902".
+    call "WaitClearStage".
+    dooropen Door17 "DOOR17".
+	break "EighteenthFloor".
+close
+
+open [NineteenthFloor]
+	regengroup	"NewTower"	"1901".
+    call "WaitClearStage".
+	call "DungeonSuccess".
+	break "NineteenthFloor".
+close
+; ------------------------------------------------------------------------------------------------------------------------------------
+open [WaitClearStage]
+    interruptset MobEliminate "" 1 "onMobEliminate".
+    pause sec 5.
+    
+    infinite
+    open
+        waitinterrupt InterruptBlock "InterruptArg".
+    call InterruptBlock.
+    close
+close
+; ------------------------------------------------------------------------------------------------------------------------------------
+open [onMobEliminate]
+    break "WaitClearStage".
+	;break "ChooseRandomBoss".
+close
+; ------------------------------------------------------------------------------------------------------------------------------------
+open [ChooseRandomBoss]
+	var RndNum 0.
+        RndNum = @Random(1 6).
+        
+        if RndNum === "1"
+        then open
+			var RndNum2 0.
+			RndNum2 = @Random(1 10).
+			
+			if RndNum2 === "1"
+			then open
+				;debug - broadcast all "01_1".
+				mobregen Boss "NT_Mara" XCoord	YCoord 0 1000 "Normal".
+			close
+			
+			else if RndNum2 === "2"
+			then open
+				;debug - broadcast all "01_2".
+				mobregen Boss "NT_GiantMagmaton" XCoord	YCoord 0 1000 "Normal".			
+			close
+
+			else if RndNum2 === "3"
+			then open
+				;debug - broadcast all "01_3".
+				mobregen Boss "NT_BellowknightRord" XCoord	YCoord 0 1000 "Normal".			
+			close
+			
+			else if RndNum2 === "4"
+			then open
+				;debug - broadcast all "01_4".	
+				mobregen Boss "NT_CaimanGiant" XCoord	YCoord 0 1000 "Normal".			
+			close
+			else if RndNum2 === "5"
+			then open
+				;debug - broadcast all "01_5".
+				mobregen Boss "NT_ShadowMaster" XCoord	YCoord 0 1000 "Normal".		
+			close
+			else if RndNum2 === "6"
+			then open
+				;debug - broadcast all "01_6".
+				mobregen Boss "NT_Psyken" XCoord	YCoord 0 1000 "Normal".		
+			close
+			else if RndNum2 === "7"
+			then open
+				;debug - broadcast all "01_7".
+				mobregen Boss "NT_VehimothUndeath" XCoord	YCoord 0 1000 "Normal".	
+			close
+			else if RndNum2 === "8"
+			then open
+				;debug - broadcast all "01_8".
+				mobregen Boss "NT_OldLeipoonB" XCoord	YCoord 0 1000 "Normal".		
+			close
+			else if RndNum2 === "9"
+			then open
+				;debug - broadcast all "01_9".
+				mobregen Boss "NT_KQ_G_BossTombRaider" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "10"
+			then open
+				;debug - broadcast all "01_10".
+				mobregen Boss "NT_KQ_MiniDragon" XCoord	YCoord 0 1000 "Normal".
+			close
+        close
+        
+        else if RndNum === "2"
+        then open
+			var RndNum2 0.
+			RndNum2 = @Random(10 20).
+			
+			if RndNum2 === "10"
+			then open
+				;debug - broadcast all "02_10".
+				mobregen Boss "NT_KQ_K_BossPhino" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "11"
+			then open
+				;debug - broadcast all "02_11".
+				mobregen Boss "NT_KQ_GB_Spider" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "12"
+			then open
+				;debug - broadcast all "02_12".
+				mobregen Boss "NT_S_Wolf" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "13"
+			then open
+				;debug - broadcast all "02_13".
+				mobregen Boss "NT_S_Boogy" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "14"
+			then open
+				;debug - broadcast all "02_14".
+				mobregen Boss "NT_S_Kebing" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "15"
+			then open
+				;debug - broadcast all "02_15".
+				mobregen Boss "NT_S_Zombie" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "16"
+			then open
+				;debug - broadcast all "02_16".
+				mobregen Boss "NT_S_WereBear" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "17"
+			then open
+				;debug - broadcast all "02_17".
+				mobregen Boss "NT_S_VampireBat" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "18"
+			then open
+				;debug - broadcast all "02_18".
+				mobregen Boss "NT_S_Greenky" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "19"
+			then open
+				;debug - broadcast all "02_19".
+				mobregen Boss "NT_S_Stonie" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "20"
+			then open
+				;debug - broadcast all "02_20".
+				mobregen Boss "NT_D_kingMarlone" XCoord	YCoord 0 1000 "Normal".
+			close
+        close
+		
+		else if RndNum === "3"
+        then open
+			var RndNum2 0.
+			RndNum2 = @Random(20 30).
+			
+			if RndNum2 === "20"
+			then open
+				;debug - broadcast all "03_20".
+				mobregen Boss "NT_D_Zombieking" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "21"
+			then open
+				;debug - broadcast all "03_21".
+				mobregen Boss "NT_D_GiantGobleKing" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "22"
+			then open
+				;debug - broadcast all "03_22".
+				mobregen Boss "NT_D_Torturerking" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "23"
+			then open
+				;debug - broadcast all "03_23".
+				mobregen Boss "NT_D_GiantOrcCaptain" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "24"
+			then open
+				;debug - broadcast all "03_24".
+				mobregen Boss "NT_D_Harpy" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "25"
+			then open
+				;debug - broadcast all "03_25".
+				mobregen Boss "NT_D_GuardianMaster" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "26"
+			then open
+				;debug - broadcast all "03_26".
+				mobregen Boss "NT_D_CaimanGiant" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "27"
+			then open
+				;debug - broadcast all "03_27".
+				mobregen Boss "NT_D_CaimanGiant" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "28"
+			then open
+				;debug - broadcast all "03_28".
+				mobregen Boss "NT_D_Magrite" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "29"
+			then open
+				;debug - broadcast all "03_29".
+				mobregen Boss "NT_Rock" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "30"
+			then open
+				;debug - broadcast all "03_30".
+				mobregen Boss "NT_FireRubyGuardian-U" XCoord	YCoord 0 1000 "Normal".
+			close
+        close
+		
+		else if RndNum === "4"
+        then open
+			var RndNum2 0.
+			RndNum2 = @Random(30 40).
+			
+			if RndNum2 === "30"
+			then open
+				;debug - broadcast all "04_30".
+				mobregen Boss "NT_DiamondTree" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "31"
+			then open
+				;debug - broadcast all "04_31".
+				mobregen Boss "NT_FireGolem" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "32"
+			then open
+				;debug - broadcast all "04_32".
+				mobregen Boss "NT_ID_GiantMagmaton" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "33"
+			then open
+				;debug - broadcast all "04_33".
+				mobregen Boss "NT_ID_BigMudMan" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "34"
+			then open
+				;debug - broadcast all "04_34".
+				mobregen Boss "NT_ID_FireTaitan" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "35"
+			then open
+				;debug - broadcast all "04_35".
+				mobregen Boss "NT_ID_Weasel" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "36"
+			then open
+				;debug - broadcast all "04_36".
+				mobregen Boss "NT_ID_FandomCornelius" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "37"
+			then open
+				;debug - broadcast all "04_37".
+				mobregen Boss "NT_KingBoogy" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "38"
+			then open
+				;debug - broadcast all "04_38".
+				mobregen Boss "NT_EmperorCrab" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "39"
+			then open
+				;debug - broadcast all "04_39".
+				mobregen Boss "NT_ViciousLeviathan01" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "40"
+			then open
+				;debug - broadcast all "04_40".
+				mobregen Boss "NT_T_DustGolem" XCoord	YCoord 0 1000 "Normal".
+			close
+        close
+		
+		else if RndNum === "5"
+        then open
+			var RndNum2 0.
+			RndNum2 = @Random(40 50).
+			
+			if RndNum2 === "40"
+			then open
+				;debug - broadcast all "05_40".
+				mobregen Boss "NT_T_StoneGolem" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "41"
+			then open
+				;debug - broadcast all "05_41".
+				mobregen Boss "NT_T_PoisonGolem" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "42"
+			then open
+				;debug - broadcast all "05_42".
+				mobregen Boss "NT_T_IronGolem" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "43"
+			then open
+				;debug - broadcast all "05_43".
+				mobregen Boss "NT_C_LizardManGuardian" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "44"
+			then open
+				;debug - broadcast all "05_44".
+				mobregen Boss "NT_C_HeavyOrc" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "45"
+			then open
+				;debug - broadcast all "05_45".
+				mobregen Boss "NT_C_JewelGolem" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "46"
+			then open
+				;debug - broadcast all "05_46".
+				mobregen Boss "NT_Eglack" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "47"
+			then open
+				;debug - broadcast all "05_47".
+				mobregen Boss "NT_Lab_25" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "48"
+			then open
+				;debug - broadcast all "05_48".
+				mobregen Boss "NT_Lab_20" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "49"
+			then open
+				;debug - broadcast all "05_49".
+				mobregen Boss "NT_Lab_19" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "50"
+			then open
+				;debug - broadcast all "05_50".
+				mobregen Boss "NT_Lab_23" XCoord	YCoord 0 1000 "Normal".
+			close
+        close
+		
+		else if RndNum === "6"
+        then open
+			var RndNum2 0.
+			RndNum2 = @Random(50 56).
+			
+			if RndNum2 === "50"
+			then open
+				;debug - broadcast all "06_50".
+				mobregen Boss "NT_Psy_PsykenDog" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "51"
+			then open
+				;debug - broadcast all "06_51".
+				mobregen Boss "NT_DT_IFocalor" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "52"
+			then open
+				;debug - broadcast all "06_52".
+				mobregen Boss "NT_DT_SFocalor" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "53"
+			then open
+				;debug - broadcast all "06_53".
+				mobregen Boss "NT_DT_TFocalor" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "54"
+			then open
+				;debug - broadcast all "06_54".
+				mobregen Boss "NT_Emp_QueenSlime" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "55"
+			then open
+				;debug - broadcast all "06_55".
+				mobregen Boss "NT_Emp_KingSlime" XCoord	YCoord 0 1000 "Normal".
+			close
+			else if RndNum2 === "56"
+			then open
+				;debug - broadcast all "06_56".
+				mobregen Boss "NT_Emp_EmperorSlime" XCoord	YCoord 0 1000 "Normal".
+			close
+        close
+close
+; ------------------------------------------------------------------------------------------------------------------------------------
+open [DungeonSuccess]
+	questresult Suc.
+	
+	var RndNum 0.
+        RndNum = @Random(1 7).
+        
+        if RndNum === "1"
+        then open
+            findhandle Player00 "player" 0.
+			findhandle Player01 "player" 1.
+			findhandle Player02 "player" 2.
+			findhandle Player03 "player" 3.
+			findhandle Player04 "player" 4.
+	
+			broadcast all "Everyone has received, [Crafting Piece] Red Cube!".
+			itemcreate Player00 "CustomItemOrM98".
+			itemcreate Player01 "CustomItemOrM98".
+			itemcreate Player02 "CustomItemOrM98".
+			itemcreate Player03 "CustomItemOrM98".
+			itemcreate Player04 "CustomItemOrM98".
+			broadcast all "Returning to Roumen in 30 seconds...".
+			pause sec 30.
+			linkto all "Rou" "Rou" 5966 4190.
+			break "main".
+        close
+        
+        else if RndNum === "2"
+        then open
+            findhandle Player00 "player" 0.
+			findhandle Player01 "player" 1.
+			findhandle Player02 "player" 2.
+			findhandle Player03 "player" 3.
+			findhandle Player04 "player" 4.
+	
+			broadcast all "Everyone has received, [Crafting Piece] Purple Cube!".
+			itemcreate Player00 "CustomItemOrM99".
+			itemcreate Player01 "CustomItemOrM99".
+			itemcreate Player02 "CustomItemOrM99".
+			itemcreate Player03 "CustomItemOrM99".
+			itemcreate Player04 "CustomItemOrM99".
+			broadcast all "Returning to Roumen in 30 seconds...".
+			pause sec 30.
+			linkto all "Rou" "Rou" 5966 4190.
+			break "main".		   
+        close
+		
+		else if RndNum === "3"
+        then open
+            findhandle Player00 "player" 0.
+			findhandle Player01 "player" 1.
+			findhandle Player02 "player" 2.
+			findhandle Player03 "player" 3.
+			findhandle Player04 "player" 4.
+	
+			broadcast all "Everyone has received, [Crafting Piece] Green Cube!".
+			itemcreate Player00 "CustomItemOrM100".
+			itemcreate Player01 "CustomItemOrM100".
+			itemcreate Player02 "CustomItemOrM100".
+			itemcreate Player03 "CustomItemOrM100".
+			itemcreate Player04 "CustomItemOrM100".
+			broadcast all "Returning to Roumen in 30 seconds...".
+			pause sec 30.
+			linkto all "Rou" "Rou" 5966 4190.
+			break "main".			
+        close
+		
+		else if RndNum === "4"
+        then open
+            findhandle Player00 "player" 0.
+			findhandle Player01 "player" 1.
+			findhandle Player02 "player" 2.
+			findhandle Player03 "player" 3.
+			findhandle Player04 "player" 4.
+	
+			broadcast all "Everyone has received, [Crafting Piece] Light Blue Cube!".
+			itemcreate Player00 "CustomItemOrM101".
+			itemcreate Player01 "CustomItemOrM101".
+			itemcreate Player02 "CustomItemOrM101".
+			itemcreate Player03 "CustomItemOrM101".
+			itemcreate Player04 "CustomItemOrM101".
+			broadcast all "Returning to Roumen in 30 seconds...".
+			pause sec 30.
+			linkto all "Rou" "Rou" 5966 4190.
+			break "main".			
+        close
+		
+		else if RndNum === "5"
+        then open
+            findhandle Player00 "player" 0.
+			findhandle Player01 "player" 1.
+			findhandle Player02 "player" 2.
+			findhandle Player03 "player" 3.
+			findhandle Player04 "player" 4.
+	
+			broadcast all "Everyone has received, [Crafting Piece] Yellow Cube!".
+			itemcreate Player00 "CustomItemOrM102".
+			itemcreate Player01 "CustomItemOrM102".
+			itemcreate Player02 "CustomItemOrM102".
+			itemcreate Player03 "CustomItemOrM102".
+			itemcreate Player04 "CustomItemOrM102".
+			broadcast all "Returning to Roumen in 30 seconds...".
+			pause sec 30.
+			linkto all "Rou" "Rou" 5966 4190.
+			break "main".		   
+        close
+		
+		else if RndNum === "6"
+        then open
+            findhandle Player00 "player" 0.
+			findhandle Player01 "player" 1.
+			findhandle Player02 "player" 2.
+			findhandle Player03 "player" 3.
+			findhandle Player04 "player" 4.
+	
+			broadcast all "Everyone has received, [Crafting Piece] Orange Cube!".
+			itemcreate Player00 "CustomItemOrM103".
+			itemcreate Player01 "CustomItemOrM103".
+			itemcreate Player02 "CustomItemOrM103".
+			itemcreate Player03 "CustomItemOrM103".
+			itemcreate Player04 "CustomItemOrM103".
+			broadcast all "Returning to Roumen in 30 seconds...".
+			pause sec 30.
+			linkto all "Rou" "Rou" 5966 4190.
+			break "main".			
+        close
+		
+		else if RndNum === "7"
+        then open
+            findhandle Player00 "player" 0.
+			findhandle Player01 "player" 1.
+			findhandle Player02 "player" 2.
+			findhandle Player03 "player" 3.
+			findhandle Player04 "player" 4.
+	
+			broadcast all "Everyone has received, [Crafting Piece] Pink Cube!".
+			itemcreate Player00 "CustomItemOrM104".
+			itemcreate Player01 "CustomItemOrM104".
+			itemcreate Player02 "CustomItemOrM104".
+			itemcreate Player03 "CustomItemOrM104".
+			itemcreate Player04 "CustomItemOrM104".
+			broadcast all "Returning to Roumen in 30 seconds...".
+			pause sec 30.
+			linkto all "Rou" "Rou" 5966 4190.
+			break "main".			
+        close
+close

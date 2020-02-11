@@ -1,0 +1,794 @@
+#Ignore	\o042
+#Exchange	#	\x20
+
+#Table	MobRegenGroup
+#columntype		INDEX	STRING[1]	DWRD	DWRD	DWRD	DWRD	DWRD									
+#ColumnName	GroupIndex	IsFamily	CenterX	CenterY	Width	Height	RangeDegree
+#Record	Dark01	N	4191	9471	0	0	300
+#Record	Dark02	N	3843	17023	0	0	300
+#Record	Dark03	N	3979	12440	0	0	300
+#Record	Dark04	N	3851	11534	0	0	300
+#Record	Dark05	N	3770	10804	0	0	300
+#Record	Dark06	N	4991	11623	0	0	300
+#Record	Dark07	N	4840	12463	0	0	300
+#Record	Dark08	N	4835	10427	0	0	300
+#Record	Dark09	N	7427	15687	0	0	300
+#Record	Dark10	N	6476	17611	0	0	300
+#Record	Dark11	N	9704	15663	0	0	300
+#Record	Dark12	N	8065	15796	0	0	300
+#Record	Dark13	N	6941	16744	0	0	300
+#Record	Dark14	N	7551	17625	0	0	300
+#Record	Dark15	N	7951	16594	0	0	300
+#Record	Dark16	N	9308	11762	0	0	300
+#Record	Dark17	N	8241	11552	0	0	300
+#Record	Dark18	N	9805	11469	0	0	300
+#Record	Dark19	N	8787	10554	0	0	300
+#Record	Dark20	N	9259	11159	0	0	300
+#Record	Dark21	N	8225	9153	0	0	300
+#Record	Dark22	N	8656	9824	0	0	300
+#Record	Dark23	N	9662	23342	0	0	300
+#Record	Dark24	N	12762	22936	0	0	300
+#Record	Dark25	N	12697	23589	0	0	300
+#Record	Dark26	N	10432	22094	0	0	300
+#Record	Dark27	N	10144	22816	0	0	300
+#Record	Dark28	N	9498	22597	0	0	300
+#Record	Dark29	N	7277	13006	0	0	300
+#Record	Dark30	N	8341	13230	0	0	300
+#Record	Dark31	N	7707	11202	0	0	300
+#Record	Dark32	N	7050	10835	0	0	300
+#Record	Dark33	N	7733	13552	0	0	300
+#Record	Dark34	N	12620	3117	0	0	300
+#Record	Dark35	N	12648	5381	0	0	300
+#Record	Dark36	N	13951	3757	0	0	300
+#Record	Dark37	N	13160	3774	0	0	300
+#Record	Dark38	N	14595	4222	0	0	300
+#Record	Dark39	N	7471	19078	0	0	300
+#Record	Dark40	N	8211	18667	0	0	300
+#Record	Dark41	N	5895	18696	0	0	300
+#Record	Dark42	N	6364	20010	0	0	300
+#Record	Dark43	N	7514	18395	0	0	300
+#Record	Dark44	N	7025	19774	0	0	300
+#Record	Dark45	N	13585	12843	0	0	300
+#Record	Dark46	N	13215	11117	0	0	300
+#Record	Dark47	N	13029	13297	0	0	300
+#Record	Dark48	N	14858	12967	0	0	300
+#Record	Dark49	N	13387	11685	0	0	300
+#Record	Dark50	N	13563	13442	0	0	300
+#Record	Dark51	N	6372	2377	0	0	300
+#Record	Dark52	N	3041	4130	0	0	300
+#Record	Dark53	N	7051	3151	0	0	300
+#Record	Dark54	N	7420	2237	0	0	300
+#Record	Dark55	N	8156	2359	0	0	300
+#Record	Dark56	N	7015	8998	0	0	300
+#Record	Dark57	N	8100	7979	0	0	300
+#Record	Dark58	N	6604	9614	0	0	300
+#Record	Dark59	N	5892	7559	0	0	300
+#Record	Dark60	N	7523	8519	0	0	300
+#Record	Dark61	N	7411	4380	0	0	300
+#Record	Dark62	N	5488	6313	0	0	300
+#Record	Dark63	N	6736	4666	0	0	300
+#Record	Dark64	N	6359	5824	0	0	300
+#Record	Dark65	N	7787	4992	0	0	300
+#Record	Dark66	N	8442	5259	0	0	300
+#Record	Dark67	N	7018	5128	0	0	300
+#Record	Dark68	N	6472	5210	0	0	300
+#Record	Dark69	N	10445	18451	0	0	300
+#Record	Dark70	N	10184	13595	0	0	300
+#Record	Dark71	N	10833	12136	0	0	300
+#Record	Dark72	N	11496	12143	0	0	300
+#Record	Dark73	N	10371	12893	0	0	300
+#Record	Dark74	N	10098	12291	0	0	300
+#Record	Dark75	N	10599	2371	0	0	300
+#Record	Dark76	N	9505	2200	0	0	300
+#Record	Dark77	N	10584	4419	0	0	300
+#Record	Dark78	N	10008	2725	0	0	300
+#Record	Dark79	N	9635	3401	0	0	300
+#Record	Dark80	N	9179	2854	0	0	300
+#Record	Dark81	N	11294	3065	0	0	300
+#Record	Dark82	N	9139	20811	0	0	300
+#Record	Dark83	N	8446	21020	0	0	300
+#Record	Dark84	N	6280	21665	0	0	300
+#Record	Dark85	N	4566	23024	0	0	300
+#Record	Dark86	N	9557	20063	0	0	300
+#Record	Dark87	N	21984	19316	0	0	300
+#Record	Dark88	N	21548	19704	0	0	300
+#Record	Dark89	N	19202	19185	0	0	300
+#Record	Dark90	N	19854	19650	0	0	300
+#Record	Dark91	N	22578	19651	0	0	300
+#Record	Dark92	N	19296	7334	0	0	300
+#Record	Dark93	N	20981	6036	0	0	300
+#Record	Dark94	N	19705	6520	0	0	300
+#Record	Dark95	N	18663	7704	0	0	300
+#Record	Dark96	N	21299	6583	0	0	300
+#Record	Dark97	N	21981	6291	0	0	300
+#Record	Dark98	N	18644	8756	0	0	300
+#Record	Dark99	N	18100	17624	0	0	300
+#Record	Dark100	N	18906	18451	0	0	300
+#Record	Dark101	N	17814	15792	0	0	300
+#Record	Dark102	N	19504	16435	0	0	300
+#Record	Dark103	N	19257	15783	0	0	300
+#Record	Dark104	N	18517	18990	0	0	300
+#Record	Dark105	N	18352	11676	0	0	300
+#Record	Dark106	N	17961	9875	0	0	300
+#Record	Dark107	N	17506	10827	0	0	300
+#Record	Dark108	N	17740	11390	0	0	300
+#Record	Dark109	N	20014	11426	0	0	300
+#Record	Dark110	N	19505	9912	0	0	300
+#Record	Dark111	N	23598	16394	0	0	300
+#Record	Dark112	N	24160	16511	0	0	300
+#Record	Dark113	N	23379	19216	0	0	300
+#Record	Dark114	N	15027	6855	0	0	300
+#Record	Dark115	N	13990	6298	0	0	300
+#Record	Dark116	N	14465	6624	0	0	300
+#Record	Dark117	N	23526	8429	0	0	300
+#Record	Dark118	N	23661	9790	0	0	300
+#Record	Dark119	N	23550	10572	0	0	300
+#Record	Dark120	N	22745	7163	0	0	300
+#Record	Dark121	N	22705	7823	0	0	300
+#Record	Dark122	N	22748	6402	0	0	300
+#Record	Dark123	N	14323	22559	0	0	300
+#Record	Dark124	N	14392	22001	0	0	300
+#Record	Dark125	N	15516	22550	0	0	300
+#Record	Dark126	N	13604	21566	0	0	300
+#Record	Dark127	N	14489	21075	0	0	300
+#Record	Dark128	N	14889	22234	0	0	300
+#Record	Dark129	N	13916	21311	0	0	300
+#Record	Dark130	N	14197	20809	0	0	300
+#Record	Dark131	N	16152	21190	0	0	300
+#Record	Dark132	N	16053	22683	0	0	300
+#Record	Dark133	N	14940	22824	0	0	300
+#Record	Dark134	N	18605	5148	0	0	300
+#Record	Dark135	N	17563	4756	0	0	300
+#Record	Dark136	N	18094	5665	0	0	300
+#Record	Dark137	N	16494	18355	0	0	300
+#Record	Dark138	N	16390	17411	0	0	300
+#Record	Dark139	N	16224	16589	0	0	300
+#Record	Dark140	N	10555	19849	0	0	300
+#Record	Dark141	N	12457	20463	0	0	300
+#Record	Dark142	N	12783	19679	0	0	300
+#Record	Dark143	N	13937	19680	0	0	300
+#Record	Dark144	N	13874	18905	0	0	300
+#Record	Dark145	N	10610	20359	0	0	300
+#Record	Dark146	N	8747	22593	0	0	300
+#Record	Dark147	N	6872	22198	0	0	300
+#Record	Dark148	N	8099	23453	0	0	300
+#Record	Dark149	N	8862	23405	0	0	300
+#Record	Dark150	N	7796	22778	0	0	300
+#Record	Dark151	N	7042	23129	0	0	300
+#Record	Dark152	N	14856	11808	0	0	300
+#Record	Dark153	N	14340	11239	0	0	300
+#Record	Dark154	N	14411	10405	0	0	300
+#Record	Dark155	N	14999	9976	0	0	300
+#Record	Dark156	N	14952	9238	0	0	300
+#Record	Dark157	N	14951	10896	0	0	300
+#Record	Dark158	N	13817	10002	0	0	300
+#Record	Dark159	N	14331	9601	0	0	300
+#Record	Dark160	N	12423	7664	0	0	300
+#Record	Dark161	N	12979	8137	0	0	300
+#Record	Dark162	N	12242	8360	0	0	300
+#Record	Dark163	N	10142	6560	0	0	300
+#Record	Dark164	N	11555	7093	0	0	300
+#Record	Dark165	N	13095	8945	0	0	300
+#Record	Dark166	N	10827	6998	0	0	300
+#Record	Dark167	N	12304	10200	0	0	300
+#Record	Dark168	N	10547	7757	0	0	300
+#Record	Dark169	N	11334	9024	0	0	300
+#Record	Dark170	N	9817	8323	0	0	300
+#Record	Dark171	N	10567	8656	0	0	300
+#Record	Dark172	N	11786	9642	0	0	300
+#Record	Dark173	N	9795	7566	0	0	300
+#Record	Dark174	N	14629	15850	0	0	300
+#Record	Dark175	N	14233	16550	0	0	300
+#Record	Dark176	N	14662	14371	0	0	300
+#Record	Dark177	N	14633	15092	0	0	300
+#Record	Dark178	N	12311	16703	0	0	300
+#Record	Dark179	N	12245	16044	0	0	300
+#Record	Dark180	N	3117	20836	0	0	300
+#Record	Dark181	N	3868	20450	0	0	300
+#Record	Dark182	N	3601	22021	0	0	300
+#Record	Dark183	N	3624	21249	0	0	300
+#Record	Dark184	N	4281	21109	0	0	300
+#Record	Dark185	N	2976	21630	0	0	300
+#Record	Dark186	N	3425	15998	0	0	300
+#Record	Dark187	N	4164	16285	0	0	300
+#Record	Dark188	N	4584	16015	0	0	300
+#Record	Dark189	N	4089	15713	0	0	300
+#Record	Dark190	N	5123	15605	0	0	300
+#Record	Dark191	N	3715	13214	0	0	300
+#Record	Dark192	N	4609	15164	0	0	300
+#Record	Dark193	N	3440	15222	0	0	300
+#Record	Dark194	N	4070	14681	0	0	300
+#Record	Dark195	N	4406	11045	0	0	300
+#Record	Dark196	N	5288	10994	0	0	300
+#Record	Dark197	N	4868	9697	0	0	300
+#Record	Dark198	N	4231	10203	0	0	300
+#Record	Dark199	N	3512	9939	0	0	300
+#Record	Dark200	N	3771	8841	0	0	300
+#Record	Dark201	N	8049	10443	0	0	300
+#Record	Dark202	N	9386	9416	0	0	300
+#Record	Dark203	N	7392	10047	0	0	300
+#Record	Dark204	N	7992	9805	0	0	300
+#Record	Dark205	N	8790	8816	0	0	300
+#Record	Dark206	N	2408	3743	0	0	300
+#Record	Dark207	N	3614	4275	0	0	300
+#Record	Dark208	N	2942	3519	0	0	300
+#Record	Dark209	N	3532	2961	0	0	300
+#Record	Dark210	N	3489	3674	0	0	300
+#Record	Dark211	N	4351	4054	0	0	300
+#Record	Dark212	N	4191	3276	0	0	300
+#Record	Dark213	N	4825	3673	0	0	300
+#Record	Dark214	N	5694	2248	0	0	300
+#Record	Dark215	N	4959	2985	0	0	300
+#Record	Dark216	N	7706	2907	0	0	300
+#Record	Dark217	N	7016	2683	0	0	300
+#Record	Dark218	N	4286	2536	0	0	300
+#Record	Dark219	N	5795	2904	0	0	300
+#Record	Dark220	N	6384	3269	0	0	300
+#Record	Dark221	N	4720	22236	0	0	300
+#Record	Dark222	N	5797	23235	0	0	300
+#Record	Dark223	N	5319	22665	0	0	300
+#Record	Dark224	N	7343	23750	0	0	300
+#Record	Dark225	N	5531	21890	0	0	300
+#Record	Dark226	N	6448	19271	0	0	300
+#Record	Dark227	N	6586	18284	0	0	300
+#Record	Dark228	N	6984	17333	0	0	300
+#Record	Dark229	N	7506	16995	0	0	300
+#Record	Dark230	N	7415	16469	0	0	300
+#Record	Dark231	N	5884	19359	0	0	300
+#Record	Dark232	N	7270	20388	0	0	300
+#Record	Dark233	N	8089	20227	0	0	300
+#Record	Dark234	N	8731	19908	0	0	300
+#Record	Dark235	N	5744	20102	0	0	300
+#Record	Dark236	N	5302	19196	0	0	300
+#Record	Dark237	N	6942	18740	0	0	300
+#Record	Dark238	N	18498	23868	0	0	300
+#Record	Dark239	N	16740	21449	0	0	300
+#Record	Dark240	N	17501	22103	0	0	300
+#Record	Dark241	N	17142	22731	0	0	300
+#Record	Dark242	N	19085	21689	0	0	300
+#Record	Dark243	N	19702	21959	0	0	300
+#Record	Dark244	N	17773	20764	0	0	300
+#Record	Dark245	N	17299	20315	0	0	300
+#Record	Dark246	N	18393	21288	0	0	300
+#Record	Dark247	N	16665	20144	0	0	300
+#Record	Dark248	N	13093	14643	0	0	300
+#Record	Dark249	N	12967	17088	0	0	300
+#Record	Dark250	N	12465	15306	0	0	300
+#Record	Dark251	N	13894	14454	0	0	300
+#Record	Dark252	N	13620	17903	0	0	300
+#Record	Dark253	N	11832	20332	0	0	300
+#Record	Dark254	N	11976	19787	0	0	300
+#Record	Dark255	N	13346	19989	0	0	300
+#Record	Dark256	N	12783	18998	0	0	300
+#Record	Dark257	N	13276	19299	0	0	300
+#Record	Dark258	N	11043	18573	0	0	300
+#Record	Dark259	N	10945	18052	0	0	300
+#Record	Dark260	N	11178	17610	0	0	300
+#Record	Dark261	N	14568	17626	0	0	300
+#Record	Dark262	N	10270	14259	0	0	300
+#Record	Dark263	N	14152	18168	0	0	300
+#Record	Dark264	N	9647	13061	0	0	300
+#Record	Dark265	N	13061	18010	0	0	300
+#Record	Dark266	N	14147	12757	0	0	300
+#Record	Dark267	N	13024	12502	0	0	300
+#Record	Dark268	N	12820	11813	0	0	300
+#Record	Dark269	N	14265	13315	0	0	300
+#Record	Dark270	N	13656	12211	0	0	300
+#Record	Dark271	N	9016	15624	0	0	300
+#Record	Dark272	N	10260	15455	0	0	300
+#Record	Dark273	N	10698	15840	0	0	300
+#Record	Dark274	N	9203	15270	0	0	300
+#Record	Dark275	N	8534	15378	0	0	300
+#Record	Dark276	N	10725	21571	0	0	300
+#Record	Dark277	N	12574	22337	0	0	300
+#Record	Dark278	N	11377	21321	0	0	300
+#Record	Dark279	N	12273	21622	0	0	300
+#Record	Dark280	N	13522	3111	0	0	300
+#Record	Dark281	N	15438	4333	0	0	300
+#Record	Dark282	N	13140	4777	0	0	300
+#Record	Dark283	N	15163	3615	0	0	300
+#Record	Dark284	N	13832	4509	0	0	300
+#Record	Dark285	N	14436	3250	0	0	300
+#Record	Dark286	N	14027	2620	0	0	300
+#Record	Dark287	N	13167	2390	0	0	300
+#Record	Dark288	N	12388	4308	0	0	300
+#Record	Dark289	N	14952	2783	0	0	300
+#Record	Dark290	N	7228	12275	0	0	300
+#Record	Dark291	N	7142	11540	0	0	300
+#Record	Dark292	N	7845	12859	0	0	300
+#Record	Dark293	N	7759	11747	0	0	300
+#Record	Dark294	N	8303	12295	0	0	300
+#Record	Dark295	N	6587	7449	0	0	300
+#Record	Dark296	N	7320	7809	0	0	300
+#Record	Dark297	N	6251	9024	0	0	300
+#Record	Dark298	N	6020	8317	0	0	300
+#Record	Dark299	N	6761	8238	0	0	300
+#Record	Dark300	N	5670	5860	0	0	300
+#Record	Dark301	N	6006	6567	0	0	300
+#Record	Dark302	N	6158	4798	0	0	300
+#Record	Dark303	N	11292	5022	0	0	300
+#Record	Dark304	N	10835	3668	0	0	300
+#Record	Dark305	N	11254	4312	0	0	300
+#Record	Dark306	N	9004	3740	0	0	300
+#Record	Dark307	N	20685	19137	0	0	300
+#Record	Dark308	N	20550	19693	0	0	300
+#Record	Dark309	N	22588	19015	0	0	300
+#Record	Dark310	N	21351	19180	0	0	300
+#Record	Dark311	N	19993	19028	0	0	300
+#Record	Dark312	N	20164	6963	0	0	300
+#Record	Dark313	N	18977	6918	0	0	300
+#Record	Dark314	N	20429	6351	0	0	300
+#Record	Dark315	N	15850	15015	0	0	300
+#Record	Dark316	N	15615	16376	0	0	300
+#Record	Dark317	N	15978	15812	0	0	300
+#Record	Dark318	N	15751	17263	0	0	300
+#Record	Dark319	N	15908	18023	0	0	300
+#Record	Dark320	N	15872	18795	0	0	300
+#Record	Dark321	N	16495	19215	0	0	300
+#Record	Dark322	N	19123	4800	0	0	300
+#Record	Dark323	N	18282	3217	0	0	300
+#Record	Dark324	N	18457	2598	0	0	300
+#Record	Dark325	N	19651	3365	0	0	300
+#Record	Dark326	N	19037	3058	0	0	300
+#Record	Dark327	N	18104	4120	0	0	300
+#Record	Dark328	N	18833	3697	0	0	300
+#Record	Dark329	N	18393	17030	0	0	300
+#Record	Dark330	N	18240	18236	0	0	300
+#Record	Dark331	N	17827	16587	0	0	300
+#Record	Dark332	N	18383	16101	0	0	300
+#Record	Dark333	N	18692	15499	0	0	300
+#Record	Dark334	N	18375	9368	0	0	300
+#Record	Dark335	N	18050	10569	0	0	300
+#Record	Dark336	N	19949	10695	0	0	300
+#Record	Dark337	N	19416	11180	0	0	300
+#Record	Dark338	N	19828	9316	0	0	300
+#Record	Dark339	N	19003	11627	0	0	300
+#Record	Dark340	N	23065	16594	0	0	300
+#Record	Dark341	N	23263	18547	0	0	300
+#Record	Dark342	N	22791	17858	0	0	300
+#Record	Dark343	N	23868	17064	0	0	300
+#Record	Dark344	N	23320	17133	0	0	300
+#Record	Dark345	N	23590	17915	0	0	300
+#Record	Dark346	N	15693	6753	0	0	300
+#Record	Dark347	N	17459	6788	0	0	300
+#Record	Dark348	N	17033	7356	0	0	300
+#Record	Dark349	N	15982	11463	0	0	300
+#Record	Dark350	N	17184	8003	0	0	300
+#Record	Dark351	N	15971	6308	0	0	300
+#Record	Dark352	N	23575	9157	0	0	300
+#Record	Dark353	N	23335	6886	0	0	300
+#Record	Dark354	N	23394	7588	0	0	300
+#Record	Dark355	N	15973	10768	0	0	300
+#Record	Dark356	N	16016	10124	0	0	300
+#Record	Dark357	N	16537	9789	0	0	300
+#Record	Dark358	N	16230	9316	0	0	300
+#Record	Dark359	N	16887	9288	0	0	300
+#Record	Dark360	N	17069	8659	0	0	300
+#Record	Dark361	N	16512	8447	0	0	300
+#Record	Dark362	N	16558	7906	0	0	300
+#Record	Dark363	N	19227	24003	0	0	300
+#Record	Dark364	N	19814	23672	0	0	300
+#Record	Dark365	N	20430	23229	0	0	300
+#Record	Dark366	N	20355	22089	0	0	300
+#Record	Dark367	N	17539	23714	0	0	300
+#Record	P_1	N	20726	18782	3500	1262	-5
+#Record	P_2	N	8820	10572	2107	2718	15
+#Record	P_3	N	6587	22822	4158	621	-11
+#Record	P_4	N	6934	2881	3267	935	1
+#Record	P_5	N	8605	18134	0	0	2903
+#Record	P_6	N	14491	4509	0	0	2867
+
+#Table	MobRegen
+#columntype		INDEX	STRING[33]	BYTE	BYTE	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD	DWRD
+#ColumnName	RegenIndex	MobIndex	MobNum	KillNum	RegStandard	RegMin	RegMax	RegDelta0	RegSec0	RegDelta1	RegSec1	RegDelta2	RegSec2	RegDelta3	RegSec3	RegDelta4
+#Record	Dark01	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark02	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark03	BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark04	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark05	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark06	BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark07	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark08	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark09	BlackBearA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark10	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark11	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark12	BlackBearA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark13	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark14	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark15	BlackBearA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark16	BIGEXP_RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark17	RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark18	BIGEXP_RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark19	BIGEXP_RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark20	RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark21	BIGEXP_RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark22	BIGEXP_RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark23	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark24	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark25	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark26	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark27	BlackBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark28	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark29	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark30	FireShella	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark31	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark32	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark33	FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark34	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark35	RedBearA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark36	BIGEXP_RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark37	RedBearA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark38	RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark39	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark40	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark41	FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark42	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark43	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark44	FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark45	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark46	FireTaitan	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark47	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark48	FireTaitan	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark49	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark50	FireTaitan	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark51	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark52	RedBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark53	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark54	RedBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark55	RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark56	WaterAlca	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark57	WaterAlca	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark58	WaterAlca	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark59	WaterAlca	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark60	WaterAlca	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark61	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark62	FireShellaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark63	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark64	FireShellaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark65	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark66	FireShellaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark67	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark68	FireShellaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark69	FireTaitanA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark70	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark71	FireTaitanA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark72	FireTaitanA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark73	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark74	FireTaitanA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark75	WaterAlcaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark76	WaterAlcaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark77	WaterAlcaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark78	WaterAlcaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark79	WaterAlcaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark80	WaterAlcaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark81	WaterAlcaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark82	WaterBaridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark83	WaterBaridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark84	WaterBaridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark85	WaterBaridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark86	WaterBaridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark87	PoisonMantrapPlantA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark88	PoisonMantrapPlantA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark89	PoisonMantrapPlantA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark90	PoisonMantrapPlantA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark91	PoisonMantrapPlantA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark92	PoisonMantrapPlantB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark93	PoisonMantrapPlantB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark94	PoisonMantrapPlantB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark95	PoisonMantrapPlantB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark96	PoisonMantrapPlantB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark97	PoisonMantrapPlantB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark98	PoisonMantrapPlantB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark99	RaplansiaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark100	RaplansiaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark101	RaplansiaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark102	RaplansiaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark103	RaplansiaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark104	RaplansiaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark105	RedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark106	RedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark107	RedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark108	RedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark109	RedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark110	RedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark111	GiantRedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark112	GiantRedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark113	GiantRedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark114	PoisonMandrakeA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark115	PoisonMandrakeA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark116	PoisonMandrakeA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark117	RaplansiaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark118	RaplansiaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark119	RaplansiaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark120	RaplansiaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark121	RaplansiaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark122	RaplansiaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark123	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark124	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark125	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark126	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark127	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark128	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark129	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark130	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark131	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark132	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark133	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark134	GiantRedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark135	GiantRedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark136	GiantRedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark137	PoisonMandrakeB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark138	PoisonMandrakeB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark139	PoisonMandrakeB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark140	Baridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark141	Baridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark142	Baridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark143	Baridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark144	Baridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark145	Baridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark146	BaridonA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark147	BaridonA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark148	BaridonA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark149	BaridonA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark150	BaridonA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark151	BaridonA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark152	Alka	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark153	Alka	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark154	Alka	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark155	Alka	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark156	Alka	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark157	Alka	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark158	Alka	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark159	Alka	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark160	BaridonB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark161	BaridonB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark162	BaridonB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark163	BaridonB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark164	BaridonB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark165	BaridonB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark166	BaridonB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark167	AlkaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark168	AlkaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark169	AlkaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark170	AlkaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark171	AlkaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark172	AlkaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark173	AlkaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark174	AlkaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark175	AlkaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark176	AlkaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark177	AlkaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark178	AlkaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark179	AlkaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark180	WindNepilim	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark181	WindNepilim	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark182	WindNepilim	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark183	WindNepilim	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark184	WindNepilim	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark185	WindNepilim	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark186	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark187	BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark188	BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark189	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark190	BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark191	BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark192	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark193	BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark194	BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark195	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark196	BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark197	BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark198	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark199	BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark200	BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark201	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark202	RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark203	RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark204	RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark205	RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark206	RedBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark207	RedBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark208	RedBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark209	RedBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark210	RedBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark211	RedBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark212	RedBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark213	RedBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark214	RedBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark215	RedBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark216	RedBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark217	RedBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark218	RedBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark219	RedBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark220	RedBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark221	WaterBaridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark222	WaterBaridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark223	WaterBaridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark224	WaterBaridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark225	WaterBaridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark226	FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark227	FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark228	FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark229	FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark230	FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark231	FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark232	FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark233	FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark234	FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark235	FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark236	FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark237	FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark238	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark239	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark240	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark241	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark242	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark243	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark244	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark245	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark246	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark247	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark248	AlkaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark249	AlkaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark250	AlkaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark251	AlkaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark252	AlkaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark253	Baridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark254	Baridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark255	Baridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark256	Baridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark257	Baridon	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark258	FireTaitanA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark259	FireTaitanA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark260	FireTaitanA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark261	FireTaitanA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark262	FireTaitanA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark263	FireTaitanA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark264	FireTaitanA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark265	FireTaitanA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark266	FireTaitan	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark267	FireTaitan	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark268	FireTaitan	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark269	FireTaitan	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark270	FireTaitan	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark271	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark272	BlackBearA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark273	BlackBearA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark274	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark275	BlackBearA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark276	BlackBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark277	BIGEXP_BlackBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark278	BlackBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark279	BlackBearB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark280	BIGEXP_RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark281	RedBearA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark282	RedBearA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark283	BIGEXP_RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark284	RedBearA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark285	RedBearA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark286	BIGEXP_RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark287	RedBearA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark288	RedBearA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark289	BIGEXP_RedBear	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark290	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark291	FireShella	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark292	FireShella	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark293	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark294	FireShella	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark295	WaterAlca	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark296	WaterAlca	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark297	WaterAlca	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark298	WaterAlca	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark299	WaterAlca	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark300	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark301	FireShellaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark302	BIGEXP_FireShellaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark303	WaterAlcaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark304	WaterAlcaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark305	WaterAlcaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark306	WaterAlcaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark307	PoisonMantrapPlantA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark308	PoisonMantrapPlantA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark309	PoisonMantrapPlantA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark310	PoisonMantrapPlantA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark311	PoisonMantrapPlantA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark312	PoisonMantrapPlantB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark313	PoisonMantrapPlantB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark314	PoisonMantrapPlantB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark315	PoisonMandrakeB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark316	PoisonMandrakeB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark317	PoisonMandrakeB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark318	PoisonMandrakeB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark319	PoisonMandrakeB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark320	PoisonMandrakeB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark321	PoisonMandrakeB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark322	GiantRedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark323	GiantRedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark324	GiantRedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark325	GiantRedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark326	GiantRedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark327	GiantRedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark328	GiantRedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark329	RaplansiaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark330	RaplansiaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark331	RaplansiaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark332	RaplansiaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark333	RaplansiaA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark334	RedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark335	RedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark336	RedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark337	RedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark338	RedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark339	RedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark340	GiantRedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark341	GiantRedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark342	GiantRedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark343	GiantRedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark344	GiantRedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark345	GiantRedCondorA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark346	PoisonMandrakeA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark347	PoisonMandrakeA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark348	PoisonMandrakeA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark349	PoisonMandrakeA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark350	PoisonMandrakeA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark351	PoisonMandrakeA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark352	RaplansiaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark353	RaplansiaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark354	RaplansiaB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark355	PoisonMandrakeA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark356	PoisonMandrakeA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark357	PoisonMandrakeA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark358	PoisonMandrakeA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark359	PoisonMandrakeA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark360	PoisonMandrakeA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark361	PoisonMandrakeA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark362	PoisonMandrakeA	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark363	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark364	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark365	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark366	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	Dark367	RedCondorB	2	0	3	1	5	5	0	2	0	3	0	4	0	5
+#Record	P_1	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_1	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_1	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_1	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_1	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_1	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_1	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_1	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_1	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_2	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_2	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_2	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_2	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_2	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_2	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_2	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_2	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_2	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_3	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_3	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_3	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_3	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_3	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_3	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_3	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_3	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_3	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_4	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_4	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_4	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_4	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_4	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_4	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_4	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_4	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_4	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_5	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_5	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_5	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_6	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_6	BIGEXP_RedBear	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+#Record	P_6	BIGEXP_FireShellaA	1	0	300	298	302	-2	5	-1	8	0	10	1	13	2
+
+#End

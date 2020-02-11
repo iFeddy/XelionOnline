@@ -1,0 +1,15 @@
+;		ItemList in NPC					
+#ignore	\o042			; 인용부호 무시			
+#exchange	#	\x20		; # => space			
+;		2013.10.07					
+							
+#Table	Tab00	;할로윈 보상판매 상점					
+#ColumnType	BYTE	String[33]	String[33]	String[33]	String[33]	String[33]	String[33]
+#ColumnName	Rec	Column00	Column01	Column02	Column03	Column04	Column05
+#Record	0	S30_Cos_Halloween_2010_01H	S30_Back_Halloween_2010_02H	S30_Hat_Halloween_2010_01H	S30_Hat_HallPumpkin02H	S30_MiniJackLantern01H	-
+#Record	1	S30_JackO_Blade00H	S30_E_Hwin_JackO_SwordH	S30_E_Hwin_JackO_TswordH	S30_E_Hwin_JackO_AxeH	S30_E_Hwin_JackO_MaceH	S30_E_Hwin_JackO_HammerH							
+#Record	2	S30_E_Hwin_JackO_BowH	S30_E_Hwin_JackO_CbowH	S30_E_Hwin_JackO_StaffH	S30_E_Hwin_JackO_WandH	S30_E_Hwin_JackO_ClawH	S30_E_Hwin_JackO_DswordH
+#Record	3	Q_HwinCandy01	Q_HwinCandy02	Q_HwinCandy03	Q_HwinCandy04	Q_HwinCandy05	-
+#Record	4	PumpkinTrans	-	-	-	-	-
+#Record	5	CharacterBVault	-	-	-	-	-
+#End							

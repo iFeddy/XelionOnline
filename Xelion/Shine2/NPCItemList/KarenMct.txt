@@ -1,0 +1,11 @@
+#Ignore	\o042						
+#Exchange	#	\x20					
+							
+#Table	Tab00						
+#ColumnType	BYTE	String[33]	String[33]	String[33]	String[33]	String[33]	String[33]
+#ColumnName	Rec	Column00	Column01	Column02	Column03	Column04	Column05
+#Record	0 	KarenVault 	- 	- 	- 	- 	-
+#Record	1 	KarenSword 	KarenTSword 	KarenAxe 	KarenShield 	KarenMace 	karenHammer
+#Record	2 	KarenBow 	KarenCrossbow 	KarenStaff 	KarenWand 	KarenClaw 	KarenDoubleSword
+#Record	3 	KarenBlade 	- 	- 	- 	- 	-
+#end							

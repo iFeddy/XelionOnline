@@ -1,0 +1,18 @@
+#ignore	\o042		; �ο��ȣ ����
+#exchange	#	\x20	; # => space
+;	Shine NPC table(ShineNPC.txt)		
+;#delimiter	\x20		
+
+#Table	Script		
+#ColumnType	INDEX	STRING[128]	
+#ColumnName	ScrIndex	ScrString	
+#Record	01	[Event] Defend Elderine will begin in 15 seconds... Location: E8	
+#Record	02	[Event] Defend Elderine has started!	
+#Record	03	...	
+#Record	04	Even in the heart of Isya, humans can still feel fear
+#Record	05	Surtur ... Rise and take this world!	
+#Record	06	Surtur is no longer immortal! Hurry!	
+#Record	07	Surtur has turned you all into Slimes!
+#Record	08	You cannot attack for 10 seconds!	
+#Record	09	[Event] Defend Elderine has finished! Reward Chest have spawned!
+#end

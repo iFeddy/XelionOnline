@@ -1,0 +1,23 @@
+#Ignore	\o042
+#Ignore	\o042
+#Exchange	#	\x20
+
+#Table	Tab00
+#ColumnType	BYTE	String[33]	String[33]	String[33]	String[33]	String[33]	String[33]
+#ColumnName	Rec	Column00	Column01	Column02	Column03	Column04	Column05
+#Record	0 	MiniXmasBell01 	MiniSteampunk01 	MiniOctopus01 	MiniSunflower01 	MiniBloom01 	MiniGift01
+#Record	1 	MiniJoker01 	MiniStone01 	MiniEagle01 	MiniGoldFish01 	MiniFirebird01 	MiniOctopus02
+#Record	2 	MiniSteampunk02 	MiniJackLantern01 	MiniBlackCat01 	MiniChilly01 	MiniPenguin01 	MiniPolarBear01
+#Record	3 	MiniLoveBug01 	MiniGuardHeart01 	MiniBalloon01 	MiniFenrir01 	MiniMallard01 	MiniSeed01
+#Record	4 	MiniTennis01 	MiniJava01 	MiniServerBear01 	MiniGold01 	MiniVoice00 	MiniBobu01
+#Record	5 	MiniArchmage01 	MiniJack01 	MiniTurkey01 	MiniSnowy01 	MiniLapin01 	MiniEasterEgg01
+#Record	6 	MiniEasterBunny02 	MiniBankPig01 	MiniRoary01_BOTH 	MiniMarshmallow01_BOTH 	MiniLantern01_BOTH 	MiniSquirrel01_BOTH
+#Record	7 	MiniBabyFox01_BOTH 	MiniFMurumuru01 	MiniIMurumuru01 	MiniSMurumuru01 	MiniBearDoll01_BOTH 	MiniCuteyDog01_BOTH
+#Record	8 	MiniMuffin 	MiniArabianSlime 	MiniLuckySheep_P 	MiniLuckySheep3_P 	MiniCobra_U 	MiniClaudePink_U
+#Record	9 	MiniClaudeBlue_U 	MiniTiros_U 	MiniStarFish_U 	MiniDaruma_P_1 	MiniSkull_P_1 	MiniSpybot_P_1
+#Record	10 	MiniXmas14_Slime_P_1 	MiniHeartMouse_P_1 	MiniShamrock_P_1 	MiniStrawberry_P1 	MiniHeartPrisoner_P1 	MiniLimp01_5
+#Record	11 	MiniCrap01_5 	MiniKCrap01_5 	MiniPino01_5 	MiniPinoP01_5 	MiniSkel01_5 	MiniBat01_5
+#Record	12 	MiniFox01_5 	MiniWolf01_5 	MiniRatMan01_5 	MiniVivi01_5 	MiniGreenky01_5 	MiniPinky01_5
+#Record	13 	MiniSDog01_5 	MiniStony01_5 	MiniAkon01_5 	MiniDragon01_5 	MiniEasterBunny01 	E_SkiMiniSnowy
+#Record	14 	MiniOctopus02_1 	MiniGift01_14 	E_MiniPenguin_15 	E_MiniMuffin 	- 	-
+#End

@@ -1,0 +1,29 @@
+#Ignore	\o042
+#Exchange	#	\x20
+
+
+
+#Table	Tab00
+#ColumnType	BYTE	String[33]	String[33]	String[33]	String[33]	String[33]	String[33]
+#ColumnName	Rec	Column00	Column01	Column02	Column03	Column04	Column05
+#Record	0 	Back_ThanksGiving_2010_01 	Back_Panda01 	SnowDecisions01 	SpiralSpring01 	Back_AquariusSeal01 	Back_NeptuneSeal01
+#Record	1 	Back_CaptainsWheel01 	Back_ClanScroll01 	Back_Prank01 	Back_Harp01 	Back_Rainy01 	Back_Milk01
+#Record	2 	Back_Steampunk01 	Back_GloryUnicorn01 	Back_DevilUnicorn01 	Back_Steampunk02 	Back_Halloween_2010_02 	Back_TombRaider02
+#Record	3 	SealedBow01 	Back_Monarch01 	Back_Wreath01 	Back_SnowBoader01 	Back_SnowBoader02 	Back_SnowBoader03
+#Record	4 	Back_SnowBoader04 	Back_CupidArrow01 	Back_LoveWing01 	Back_Fork01 	Back_Fairy01 	Back_WesternWing01
+#Record	5 	Back_MeadowWing01 	Back_Bouquet01 	Back_TennisGold01 	Back_TennisSilver01 	Back_TennisBlue01 	Back_FutureWings01
+#Record	6 	Back_CreepyLeg01 	Back_Santa01 	Back_Balloon01 	Back_EasterBunny01 	Back_DiveSpear01 	Back_Pitchfork01
+#Record	7 	Back_Scythe01 	Back_Karen01 	Back_SkelWing01 	Back_IceWing01 	Back_XStick01 	Back_NewYearBell01
+#Record	8 	Back_ClockWing 	Back_Musketeer 	Back_Ankh 	Back_Doctor 	Back_Syringe 	Back_Tube_1
+#Record	9 	Back_WaterGun_1 	Back_Katana_1 	Back_Fan_1 	Back_CurseBear_1 	Back_CurseRabbit_1 	Back_Cyber_1
+#Record	10 	Back_Xmas_14_1 	Back_LoveWitchPotion_1 	Back_LoveWitchBroom_1 	Back_Shamrock_1 	Back_Lollipop_1 	Back_HeartKey_1
+#Record	11 	Back_HeartBalloon_1 	AngelWing09_1 	CorruptAngelWing10_1 	BDragonWing01 	ButterflyWing01 	TravelerBag08_1
+#Record	12 	SealedSword05 	ThrowingStar04 	DevilKingWings09 	BDragonWing10 	TortoiseShell06 	SealedBow05
+#Record	13 	FloatingSpirit01 	RSealedDoubleSword00 	Back_TombRaider01 	DevilKingWings01 	ButterflyWing01_2 	Back_CollectS02
+#Record	14 	Transparent_BackNPC	-	-	-	-	-
+#Record	15 	Tail_Peacock02 	Tail_Fox01_1 	Tail_GloryUnicorn01	Tail_DevilUnicorn01 	Tail_Faun01 	Tail_Angel01
+#Record	16 	Tail_Wolf01 	Tail_ShadowFox01 	Tail_Monkey01	Back_KeiGuitar01 	Tail_FlameRockR 	Tail_FlameRockB
+#Record	17 	Tail_Squirrel 	Tail_Rabbit00 	Tail_WTiger02	Teil_Devil03 	Tail_BCat03 	Tail_Dragon03
+#Record	18	Tail_phoenix05 	Tail_Fox05 	Tail_NineFox01	Tail_WCat01 	Tail_Peacock00 	E_Tail_FlameRockB
+#Record	19	Transparent_TailNPC	-	-	-	-	-
+#end

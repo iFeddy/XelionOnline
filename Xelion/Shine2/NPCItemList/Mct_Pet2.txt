@@ -1,0 +1,28 @@
+#Ignore	\o042						
+#Exchange	#	\x20					
+							
+#Table	Tab00						
+#ColumnType	BYTE	String[33]	String[33]	String[33]	String[33]	String[33]	String[33]
+#ColumnName	Rec	Column00	Column01	Column02	Column03	Column04	Column05
+#Record	0	L_EQ_US_MiniGGhost01	L_MiniTeddy01	L_MiniOctopus01	L_MiniGoldFish01	L_MiniLoveBug01	L_MiniServerBear01
+#Record	1	L_MiniDomo01	L_MiniBunny01	L_MiniSunflower01	L_MiniFirebird01	L_MiniGuardHeart01	L_MiniGold01
+#Record	2	L_MiniSnowGirl01	L_MiniSnickle01	L_MiniBloom01	L_MiniJackLantern01	L_MiniFenrir01	L_MiniSilver01
+#Record	3	L_MiniReindeer01	L_MiniRedPanda01	L_MiniGift01	L_MiniBlackCat01	L_MiniMallard01	L_MiniBronze01
+#Record	4	L_MiniGingerBread01	L_MiniOMalley01	L_MiniJoker01	L_MiniChilly01	L_MiniSeed01	L_MiniVoice00
+#Record	5	L_MiniKeby01	L_MiniRainy01	L_MiniStone01	L_MiniPenguin01	L_MiniTennis01	L_MiniBobu01
+#Record	6	L_MiniKeby02	L_MiniSteampunk01	L_MiniEagle01	L_MiniPolarBear01	L_MiniJava01	L_MiniArchmage01
+#Record	7	L_MiniJack01	L_MiniRoary02	L_MiniSMurumuru01	L_MiniClaudePink01	L_MiniHeartMouse	L_MiniWolf01
+#Record	8	L_MiniTurkey01	L_MiniMarshmallow02	L_MiniBearDoll02	L_MiniClaudeBlue01	L_MiniShamrock	L_MiniCrap01
+#Record	9	L_MiniSnowy01	L_MiniLantern02	L_MiniCuteyDog02	L_MiniStarFish	L_MiniStrawberry	L_MiniUncleSam00
+#Record	10	L_MiniLapin01	L_MiniSquirrel02	L_MiniMuffin	L_MiniDaruma	L_MiniBoogie01	L_MiniRatMan01
+#Record	11	L_MiniEasterEgg01	L_MiniBabyFox02	L_MiniArabianSlime	L_MiniSkull	L_MiniPino01	L_MiniGGhost03
+#Record	12	L_MiniEasterBunny02	L_MiniFMurumuru01	L_MiniLuckySheep1	L_MiniSpybot	L_MiniBat01	L_MIniMHat02
+#Record	13	L_MiniBankPig01	L_MiniIMurumuru01	L_MiniCobra01	L_MiniXmas14_Slime	L_MiniLimp01	L_MiniSkel02
+#Record	14	L_MiniGentleLich00	L_MiniBijou01	L_MiniHina01	L_MiniPinoP01	L_MiniSDog01	L_MiniRedRanger03
+#Record	15	L_MiniSakura04	L_MiniEpith01	L_MiniSummer01	L_MiniKebingS01	L_MiniStony01	-
+#Record	16	L_MiniSakura05	L_MiniCypion01	L_MiniOtter00	L_MiniFox01	L_MiniAkon01	-
+#Record	17	L_MiniSakura06	L_MiniLegel01	L_MiniGa02	L_MiniBoar01	L_MiniDragon01	-
+#Record	18	L_MiniILoveTila00	L_MiniHina02	L_MiniOctoBread00	L_MiniVivi01	L_MiniDvil01	-
+#Record	19	L_MiniTeva01	L_MiniHina03	L_MiniOctoPretzel00	L_MiniGreenky01	L_MiniCpirate01	-
+#Record	20	L_MiniApoline01	L_MiniGreenky02	L_MiniKCrap01	L_MiniPinky01	L_MiniGreenRanger00	-
+#end							

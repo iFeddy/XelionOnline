@@ -1,0 +1,22 @@
+#Ignore	\o042						
+#Exchange	#	\x20					
+							
+
+
+#Table	Tab00						
+#ColumnType	BYTE	String[33]	String[33]	String[33]	String[33]	String[33]	String[33]
+#ColumnName	Rec	Column00	Column01	Column02	Column03	Column04	Column05
+#Record	0	PoveofBlass01	AddInventory01_1	AddStorageBox01_1	AddShopSlot01_1	LightingPickParts	SoulRelease01_1
+#Record	1	SoulEvolution01_1	APower1	DPower1	ADPower1	HPIncrease1	SPIncrease1
+#Record	2	Huntervoucher	EXPCard01_1	MightyPotion01_1	ExpertKnowhow02	WeaponEndure04	LPIncrease1_F7
+#Record	3	ACRedDragon02	MRBlueDragon02	ChatColor01	ExpHold	BuleMile01_01	BuleMile02_01
+#Record	4	BuleMile03_01	BuleMile04_01	BuleMile05_01	GoldNine01_1	GoldNine01_2	GoldNine01_3
+#Record	5	GoldNine01_4	GoldNine01_5	SkillReloadbundleAll	HairShop05	PutOn_ClearKit01	PutOn_ClearKit02
+#Record	6	PutOn_ClearKit03	PutOn_ClearKit04 	PutOn_ClearKit05 	PutOn_ClearKit06	WingStone01_1	ProdReload01
+#Record	7 	DeleteFriends	-	-	-	-	-
+#Record	8 	Emotion_ChargdDance41_2	Emotion_ChargdDance39_2	Emotion_ChargdDance37_2	Emotion_ChargdDance35_2	Emotion_ChargdDance33_2	Emotion_ChargdDance31_2
+#Record	9 	Emotion_ChargdDance29_2	Emotion_ChargdDance27_2	Emotion_ChargdDance25_2	Emotion_ChargdDance23_2	Emotion_ChargdDance21_2	Emotion_ChargdDance19_2
+#Record	10 	Emotion_ChargdDance17_2	Emotion_ChargdDance15_2	Emotion_ChargdDance47_1	Emotion_ChargdDance48_1	Emotion_ChargdDance49_1	Emotion_ChargdDance50_1
+#Record	11 	Emotion_ChargdDance51_1	Emotion_ChargdDance52_1	Emotion_ChargdDance53_1	Emotion_ChargdDance55_2	Emotion_ChargdDance54_1	Emotion_ChargdDance45_2
+#Record	12 	Emotion_ChargdDance43_2	-	-	- 	- 	-
+#end

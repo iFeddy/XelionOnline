@@ -1,0 +1,90 @@
+; xkl 
+open [main]
+    var InterruptBlock	1
+		InterruptArg	2
+		Monster	0
+		Boss	0.
+	
+	call "ServersFirstSummon".
+    infinite
+    open
+        waitinterrupt InterruptBlock "InterruptArg".
+        call InterruptBlock "Default".
+    close
+close
+; --------------------------------------------------------------------- ;
+open [ServersFirstSummon]
+	mobregen Monster "Skeleton" 3250 7138 0 1000 "Normal".
+	interruptset DeadHandle "" 1 Monster "Event".
+close
+; --------------------------------------------------------------------- ;
+open [RandomSummon]
+   	var RndNum 0.
+        RndNum = @Random(1 6).
+        
+        if RndNum === "1"
+        then open
+			pause sec 1800.
+			mobregen Monster "Skeleton" 3250 7138 0 1000 "Normal".
+			interruptset DeadHandle "" 1 Monster "Event".
+        close
+        
+        else if RndNum === "2"
+        then open
+			pause sec 2700.
+			mobregen Monster "Skeleton" 3250 7138 0 1000 "Normal".
+			interruptset DeadHandle "" 1 Monster "Event".
+        close
+		
+		else if RndNum === "3"
+        then open 
+			pause sec 3600.
+			mobregen Monster "Skeleton" 3250 7138 0 1000 "Normal".
+			interruptset DeadHandle "" 1 Monster "Event".
+        close
+		
+		else if RndNum === "4"
+        then open 
+			pause sec 5400.
+			mobregen Monster "Skeleton" 3250 7138 0 1000 "Normal".
+			interruptset DeadHandle "" 1 Monster "Event".
+        close
+		
+		else if RndNum === "5"
+        then open 
+			pause sec 14400.
+			mobregen Monster "Skeleton" 3250 7138 0 1000 "Normal".
+			interruptset DeadHandle "" 1 Monster "Event".
+        close
+		
+		else if RndNum === "6"
+        then open 
+			pause sec 28800.
+			mobregen Monster "Skeleton" 3250 7138 0 1000 "Normal".
+			interruptset DeadHandle "" 1 Monster "Event".
+        close
+close
+; --------------------------------------------------------------------- ;
+open [Event]
+	maplight 50 50 50.
+	timelimit Min 5.
+	broadcast all "Skeleton Knight has spawned!".
+	mobregen Boss "SkelKnight" 3250 7138 0 1000 "Normal".
+	interruptset DeadHandle "" 1 Boss "Reload".
+	interruptset TimeOut "" 1 "ReloadFail".
+close
+; --------------------------------------------------------------------- ;
+open [Reload]
+	timelimit Min 0.
+	maplight 255 255 255.
+	broadcast all "Skeleton Knight has been defeated!".
+	interruptclear all.
+	call "RandomSummon".
+close
+; --------------------------------------------------------------------- ;
+open [ReloadFail]
+	suicide Boss.
+	maplight 255 255 255.
+	interruptclear all.
+	call "RandomSummon".
+close
