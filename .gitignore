@@ -1,4 +1,12 @@
 /.vscode
-*.env
+*.bat
 *.log
 *.bak
+*/DebugMessage/*
+*/Log/*
+*/Assert*.txt
+*/ExitLog*.txt
+*/Dbg.txt
+*/Size.txt
+Size.txt
+Dbg.txt
