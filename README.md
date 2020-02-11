@@ -1,15 +1,15 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Xelion Online"></a>
+ <img width=80% src="https://scontent.faep9-1.fna.fbcdn.net/v/t1.0-9/10441241_973165149398646_97107439822012385_n.png?_nc_cat=108&_nc_ohc=hzpYjGg-svsAX-jLJtp&_nc_ht=scontent.faep9-1.fna&oh=0bf91f82d6e8c021cf8e63b05d84345d&oe=5EBB8431" alt="Xelion Online"></a>
 </p>
 
-<h3 align="center">Xelion Online - Servidor</h3>
+<h3 align="center">Xelion Online</h3>
 
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/ifeddy/xeliononline.svg)](https://github.com/ifeddy/xeliononline/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ifeddy/xeliononline.svg)](https://github.com/ifeddy/xeliononline/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
@@ -25,13 +25,9 @@
 
 - [Acerca de](#about)
 - [Instalación](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+- [Programas](#built_using)
+- [Colaboradores](#authors)
+- [Bugs](#bugs)
 
 ## 🧐 Acerca de <a name = "about"></a>
 
@@ -41,75 +37,26 @@ Xelion Online es un servidor Privado de Fiesta Online en Español. Estos son los
 
 Para instalarlo solamente clonar y ejecutar los servicios. Si todo funciona bien se veran mensajes con OK.
 
-### Prerequisites
+### Prerrequisitos
 
-What things you need to install the software and how to install them.
+Saber administrar un servidor de Fiesta Online. Saber manejo de Servidor Windows Server 2016. No es necesario saber programar para instalar y montar el server.
+Todas las traducciones, cambios, textos y cuadros se manejan por Excel. 
 
-```
-Give examples
-```
+## ⛏️ Programas Necesarios <a name = "built_using"></a>
 
-### Installing
+- [Excel](https://www.microsoft.com/es-ar/p/excel/cfq7ttc0k7dx?&ef_id=CjwKCAiAvonyBRB7EiwAadauqaDkSHqNBfJrNEYv8t_UqYShzMdim1HlufdHw6KGyOgZ3b53B0hVGRoCQQIQAvD_BwE:G:s&ef_id=CjwKCAiAvonyBRB7EiwAadauqaDkSHqNBfJrNEYv8t_UqYShzMdim1HlufdHw6KGyOgZ3b53B0hVGRoCQQIQAvD_BwE:G:s&OCID=AID2000750_SEM_BUFB5PMj&MarinID=sBUFB5PMj|334765328787|%2Bexcel|b|c||64921666750|kwd-715492038&lnkd=Google_O365SMB_App&gclid=CjwKCAiAvonyBRB7EiwAadauqaDkSHqNBfJrNEYv8t_UqYShzMdim1HlufdHw6KGyOgZ3b53B0hVGRoCQQIQAvD_BwE) - Archivos SHN y Cuadros
+- [MSSQL](https://www.microsoft.com/es-es/sql-server/sql-server-2017) - Base de Datos
+- [Windows10](https://www.microsoft.com/es-es/software-download/windows10) - Sistema Operativo Comun
+- [WindowsServer2016](https://www.microsoft.com/es-xl/evalcenter/evaluate-windows-server-2016) - Sistema Operativo Correcto
+- [VisualStudioCode](https://code.visualstudio.com) - Editor de Texto/Cuadros Especificos
+- [GitHubDesktop](https://desktop.github.com) - GitHub para mantener el codigo Actualizado
 
-A step by step series of examples that tell you how to get a development env running.
+## ✍️ Colaboradores <a name = "authors"></a>
 
-Say what the step will be
+- [Tronic](https://github.com/iFeddy)
 
-```
-Give the example
-```
+Lista completa de los [colaboradores](https://github.com/ifeddy/xeliononline/contributors) que participaron en este proyecto.
 
-And repeat
+## 🌞 Bugs <a name = "bugs"></a>
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
-
-## ⛏️ Built Using <a name = "built_using"></a>
-
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
-
-## ✍️ Authors <a name = "authors"></a>
-
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+Poner los bugs a medida que los encontremos aca.
