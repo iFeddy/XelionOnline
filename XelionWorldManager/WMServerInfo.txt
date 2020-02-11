@@ -13,7 +13,7 @@
 MY_SERVER "PG_W00_WM",		"_WorldManager",	5,		0,		0
 
 
-#include "../9Data/ServerInfo/ServerInfo.txt"
+#include "../Xelion/ServerInfo/ServerInfo.txt"
 
 #END
 

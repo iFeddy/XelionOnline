@@ -1,6 +1,6 @@
 ;
 ; Account Data Server info 
-; 2013.2 By Blacksky
+; 2020.2 By Tronic
 ; 
 #DEFINE MY_SERVER
   <STRING>
@@ -12,7 +12,7 @@
 
 MY_SERVER "PG_AccDB", 		"_Account", 	0,		0,		0
           
-#include "../9Data/ServerInfo/ServerInfo.txt"
+#include "../Xelion/ServerInfo/ServerInfo.txt"
 
 
 #END

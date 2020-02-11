@@ -1,6 +1,6 @@
 ;
 ; Account Data Server info 
-; 2012.3 By Blacksky
+; 2020.2 By Tronic
 ; 
 
 ;-----------------------------------------------------------------------------------
@@ -43,7 +43,7 @@
 ;         [Service name]        [Display name]  [Server ID] 	[World No] 	[Zone No]
 MY_SERVER "PG_ALDB", 		"_AccountLog", 	1,		0,		0
           
-#include "../9Data/ServerInfo/ServerInfo.txt"
+#include "../Xelion/ServerInfo/ServerInfo.txt"
 
 
 #END
