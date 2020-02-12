@@ -6,7 +6,11 @@
 */Log/*
 */Assert*.txt
 */ExitLog*.txt
+*/MapLoad.txt
+*/Message.txt
 */Dbg.txt
 */Size.txt
+*/ShineStackStruct*.txt
+*/SocketMultiplicateLog*.txt
 Size.txt
 Dbg.txt

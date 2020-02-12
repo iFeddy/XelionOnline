@@ -35,7 +35,7 @@
 
 NATION_NAME  "EU_US_REAL"
 
-WORLD_NAME 0, "INITIO",   "../9Data/Shine"
+WORLD_NAME 0, "INITIO",   "../Xelion/Data"
 
 
 ; Login ------------------------------------------------------------------------------------------
